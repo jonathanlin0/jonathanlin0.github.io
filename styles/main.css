@@ -1,0 +1,50 @@
+body {
+    background:black;
+    color: white;
+    font-family:calibri;
+    margin: 0;
+}
+
+header{
+    background:white;
+    color:black;
+    margin:0;
+}
+
+a{
+    color:blue;
+}
+
+
+.nav {
+    background:red;
+    padding: 3px 5px 3px 5px;
+}
+
+.title{
+    padding-left: 50px;
+    color: black;
+    font-size:50px;
+}
+
+nav ul{
+    margin:0;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    background: rgb(0, 255, 255);
+    color: black;
+    padding:5px 8px;
+    margin-right:10px;
+}
+
+nav ul li a{
+    color:black;
+}
+
+footer{
+    clear: both;
+}
