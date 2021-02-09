@@ -1,11 +1,98 @@
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+.cards * {
+    box-sizing: border-box;
+}
+
+
+.card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top: 4px solid #168A8C;
+    border-right: 4px solid #168A8C;
+    border-left: 4px solid #168A8C;
+}
+
+.card__content__text{
+    font-size: 15px;
+}
+
+.card__content__title{
+    font-size: 25px;
+    text-align: center;
+    color: #168A8C;
+    font-weight: bold;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card__content__title:hover{
+    text-decoration: underline;
+}
+
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px 1px;
+    background: #fafafa;
+    border-right: 4px solid #168A8C;
+    border-left: 4px solid #168A8C;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 4px solid #168A8C;
+    border-right: 4px solid #168A8C;
+    border-left: 4px solid #168A8C;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #168A8C;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+/* button style: https://www.youtube.com/watch?v=MLfAW55_4cY&ab_channel=DarkCode */
 .container{
     text-align: center;
     display: inline;
 }
-
-
-/* button style: https://www.youtube.com/watch?v=MLfAW55_4cY&ab_channel=DarkCode */
-
 .btn{
     border: 1px solid#168A8C;
     background: none;
@@ -38,18 +125,21 @@
     height: 180%;
 }
 
+/* card layout */
+
+
+
 
 body {
     background:black;
     color: white;
-    font-family:Calibri;
     
 }
 
 .space {
     width: 100%;
     height: 100vh;
-    background-image: url("media/space.jpg");
+    background-image: url("media/federer.jpg");
     background-size: cover;
     background-position:center;
     position: relative;
@@ -149,7 +239,8 @@ p{
     width:60%;
     font-size:20px;
     color: #168A8C;
-
+    font-family: Calibri, helvetica,Arial, sans-serif;
+    
 }
 
 footer{
