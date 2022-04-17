@@ -1,132 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-
     <head>
-        <title>Jonathan Lin's Portfolio</title>
-        <link href="main.css" rel="stylesheet"/>
-        <link rel="icon" href="media/favicon.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     </head>
-
     <body>
-        
-        <div class= 'container'>
-            <button class="btn" type="submit" onclick="window.location.href='index.html';">Home</button>
-            <button class="btn" type="submit" onclick="window.location.href='portfolio.html';">Portfolio</button>
-            <button class="btn" type="submit" onclick="window.location.href='aboutme.html';">About Me</button>
-        </div>
-
-        <div class="space">
-            <h1 class="title">
-                <div class='letter'>H</div><div class='letter'>i</div><div class='letter'>,</div>
-                </br>
-                <div class='letter'>I</div><div class='letter'>'</div><div class='letter'>m</div><div class='letter'>&nbsp</div><div class='letter'>J</div><div class='letter'>o</div><div class='letter'>n</div><div class='letter'>a</div><div class='letter'>t</div><div class='letter'>h</div><div class='letter'>a</div><div class='letter'>n</div><div class='letter'>.</div>
-                </br>
-                <div class='letter'>I</div><div class='letter'>&nbsp</div><div class='letter'>l</div><div class='letter'>i</div><div class='letter'>k</div><div class='letter'>e</div><div class='letter'>&nbsp</div><div class='letter'>t</div><div class='letter'>o</div><div class='letter'>&nbsp</div><div class='letter'>c</div><div class='letter'>o</div><div class='letter'>d</div><div class='letter'>e</div><div class='letter'>&nbsp</div><div class='letter'>s</div><div class='letter'>t</div><div class='letter'>u</div><div class='letter'>f</div><div class='letter'>f</div><div 
-                class='letter'>.</div>
-            </h1>
-        </div>
-
-        
-       
-        <div class="cards">
-            <div class="card">
-                <img src='media/instagram unlocked.jpg' alt="Instagram Bot Picture" class="card__image">
-
-                <div class="card__content">
-                    <p class="card__content__title"  type="submit" onclick="window.location.href='portfolio.html';">
-                        Instagram Bot
-                        </br>
-                    </p>
-                    <p class="card__content__text">
-                        Custom made Instagram bot that runs in the background, helping users grow their Instagram account without putting in any work (passive growth). Users' accounts grow by the bot executing custom growth algorithms to grow in followers, likes, etc.
-                    </p>
-                </div>
-
-                <div class="card__info">
-                    <div>
-                        <a href="portfolio.html" class="card__link">More Info</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="media/twitter.jpeg" alt="Twitter Fake News Detection Picture" class="card__image">
-
-                <div class="card__content">
-                    <p class="card__content__title"  type="submit" onclick="window.location.href='portfolio.html';">
-                        Twitter Fake News Detection
-                    </p>
-                    <p class="card__content__text">
-                        As I browse the internet, I notice much fake news spreading uncontrollably, mainly stemming from Twitter. Therefore, I thought to create a bot that helps users combat this. This bot helps users to determine whether articles online are most likely real or most likely fake.
-                    </p>
-                </div>
-
-                <div class="card__info">
-                    <div>
-                        <a href="portfolio.html" class="card__link">More Info</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="media/pi.jpg" alt="Pi Visualizer Picture" class="card__image">
-
-                <div class="card__content">
-                    <p class="card__content__title"  type="submit" onclick="window.location.href='portfolio.html';">
-                        Pi Visualizer
-                    </p>
-                    <p class="card__content__text">
-                        Thoughout my math courses in high school, from Algebra 1 through multivariable Calculus, I've always wondered how pi came to be. By using the Monte Carlo method to calculate pi, this program visualizes the approximating of the value of pi.
-                    </p>
-                </div>
-
-                <div class="card__info">
-                    <div>
-                        <a href="portfolio.html" class="card__link">More Info</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class= 'container__view__more'>
-            <button class="btn" type="submit" onclick="window.location.href='portfolio.html';">View Entire Portfolio</button>
-            <button class="btn" type="submit" onclick="window.location.href='aboutme.html';">View Entire Biography</button>
-        </div>
-
-
-        <div class="indented__paragraph">
-            <p>
-                Hi, my name is Jonathan Lin. I'm a 16 year old from Houston, Texas who's very ambitious, determinded, and ready to change the future through technology. Click the "View Entire Biography" or "About Me" button to view my entire introduction.
-            </p>
-        </div>
-        <div class="indented__paragraph">
-            <p>
-                This website is designed to showcase my main personal coding projects (all open source) done completely outside of and independent of school; all were made for fun or designed to solve a problem I had in my real life. I hope you enjoy.
-            </p>
-        </div>
-        
-        </br>
-        </br>
-    
-
+        <div id="root"></div>
+        <script src="index.js" type="text/babel"></script>
     </body>
-
-    <script src="scripts.js"></script>
-
-            
-        <!--
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                </ul>
-            </nav>
-        </header></br></br></br>
-        -->
-        
-
-    <!--
-        dark blue: #1E90FF
-    -->
 </html>
