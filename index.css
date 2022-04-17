@@ -6,32 +6,48 @@
 @font-face {
     font-family:"Uni Sans";
     /* free font source: https://www.freebestfonts.com/uni-sans-font */
-    src: url("fonts/ttf/Uni Sans Bold.ttf") format("truetype"), url("fonts/otf/Uni Sans Bold.otf") format("opentype");
+    src: url("fonts/Uni Sans/ttf/Uni Sans Bold.ttf") format("truetype"), url("fonts/otf/Uni Sans Bold.otf") format("opentype");
     font-weight: bolder;
 }
 @font-face {
     font-family:"Uni Sans";
     /* free font source: https://www.freebestfonts.com/uni-sans-font */
-    src: url("fonts/ttf/Uni Sans SemiBold.ttf") format("truetype"), url("fonts/otf/Uni Sans SemiBold.otf") format("opentype");
+    src: url("fonts/Uni Sans/ttf/Uni Sans SemiBold.ttf") format("truetype"), url("fonts/otf/Uni Sans SemiBold.otf") format("opentype");
     font-weight: bold;
 }
 @font-face {
     font-family:"Uni Sans";
     /* free font source: https://www.freebestfonts.com/uni-sans-font */
-    src: url("fonts/ttf/Uni Sans Regular.ttf") format("truetype"), url("fonts/otf/Uni Sans Regular.otf") format("opentype");
+    src: url("fonts/Uni Sans/ttf/Uni Sans Regular.ttf") format("truetype"), url("fonts/otf/Uni Sans Regular.otf") format("opentype");
     font-weight: normal;
 }
 @font-face {
     font-family:"Uni Sans";
     /* free font source: https://www.freebestfonts.com/uni-sans-font */
-    src: url("fonts/ttf/Uni Sans Thin.ttf") format("truetype"), url("fonts/otf/Uni Sans Thin.otf") format("opentype");
+    src: url("fonts/Uni Sans/ttf/Uni Sans Thin.ttf") format("truetype"), url("fonts/otf/Uni Sans Thin.otf") format("opentype");
     font-weight: lighter;
+}
+
+@font-face {
+    font-family:"Helvetica";
+    src: url("fonts/Helvetica/ttf/Helvetica-Bold.ttf") format("truetype");
+    font-weight:bold;
+}
+@font-face {
+    font-family:"Helvetica";
+    src: url("fonts/Helvetica/ttf/Helvetica.ttf") format("truetype");
+    font-weight:normal;
+}
+@font-face {
+    font-family:"Helvetica";
+    src: url("fonts/Helvetica/ttf/Helvetica-Light.ttf") format("truetype");
+    font-weight:lighter;
 }
 
 * {
     box-sizing: border-box;
     
-    font-family: "Uni Sans", Arial, sans-serif;
+    font-family: "Helvetica", Arial, sans-serif;
 }
 
 body {
@@ -40,12 +56,16 @@ body {
 }
 
 .nav {
+    width: 100%;
     display: flex;
+    background-color: #333333;
     height:60px;
     justify-content: space-between;
     align-items:center;
     padding: 20px 36px;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 1;
 }
 
 .nav-items {
@@ -53,18 +73,18 @@ body {
     display:flex;
 }
 
-.nav-item{
+.nav-item-text{
     padding:10px;
-    background-color: #383434;
-    color:rgb(227, 227, 227);
+    color:rgb(189, 189, 189);
     margin:10px;
     border-radius: 7px;
     text-align: center;
     font-weight: bold;
     font-size: 1.1em;
+    text-decoration: none;
 }
 
-.nav-item:hover {
+.nav-item-text:hover {
     /*background-color: #42464c;*/
     color: rgb(255, 255, 255);
     cursor:pointer;
@@ -85,6 +105,7 @@ body {
     transform: translateY(-50%);
     text-align: center;
     color: white;
+    
 }
 
 .landing_text h1 {
@@ -101,6 +122,39 @@ body {
     font-size: 1.3em;
     text-align: left;
     padding-top:10px;
+}
+
+.landing-buttons {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-button {
+    color: #333333;
+    width: max-content;
+    align-items: center;
+    margin: 0px 5px;
+    padding:0px;
+}
+
+.landing-button-text {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.landing-button-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#projects-anchor {
+    padding-top: 50px;
 }
 
 .project-container h1{
@@ -151,6 +205,10 @@ body {
     width: 100%;
 }
 
+.card-text h2 {
+    margin-top: 0;
+}
+
 .card-text p{
     margin:0;
 }
@@ -162,20 +220,23 @@ body {
 
 .card-button {
     background-color: white;
-    color:black;
+    color:#333333;
     width: max-content;
     border-radius: 10px;
+    padding: 4px 6px;
+    margin-bottom: 7px;
 }
 
 .card-button:hover {
     cursor:pointer;
 }
 
-.card-button p{
-    padding: 4px 6px;
+.card-button a{
+    color:#333333;
+    text-decoration: none;
 }
 
-.card-button p:hover{
+.card-button a:hover{
     text-decoration: underline;
 }
 
