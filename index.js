@@ -31,7 +31,7 @@ function LandingScreen() {
                         <li>My name is Jonathan Lin</li>
                         <li>I'm an incoming student at California Institute of Technology (Caltech) and planning to major in Computer Science</li>
                         <li>Within CS, I'm interested in AI and big data analysis</li>
-                        <li>Plays for Caltech's D3 tennis team</li>
+                        <li>Plays for Caltech's Division 3 tennis team</li>
                     </ul>
                 </div>
                 
