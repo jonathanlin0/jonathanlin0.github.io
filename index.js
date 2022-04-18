@@ -7,10 +7,10 @@ function Header() {
                         <a href="index.html" className="nav-item-text">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html" className="nav-item-text">Projects</a>
+                        <a href="index.html#projects-anchor" className="nav-item-text">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html" className="nav-item-text">Github</a>
+                        <a href="https://github.com/jonathanlin0?tab=repositories" className="nav-item-text" target="_blank" rel="noopener noreferrer">Github</a>
                     </li>
                     <li className="nav-item">
                         <a href="index.html" className="nav-item-text">Contact</a>
@@ -87,6 +87,24 @@ function Projects() {
                     image_src="media/twitter gear.png"
                     languages="Python"
                     technologies="Pandas, Scikit-learn, BeautifulSoup, Tweepy, Requests, Postman"
+                    github="https://github.com"
+                />
+                <Card 
+                    title="Theseus: A Legend's Rising"
+                    description="This game was my team's submission for the Computer Game and Simulation Programming event for Future Business Leaders of America (FBLA) competitions 2021-2022. On top of the game, we have an external server hosted on Repl that contains the users' scores, allowing people worldwide to compete against one another. The game follows the story of Theseus defeating the Minotaur. It features multiple mazes for the player to find their way through, with different enemies and a unique boss for each level. In addition to singleplayer, we have multiplayer and endless mode. Players can fight each other in multiplayer, and endless mode has the player fight an infinite amount of levels - the levels get harder as the player progresses. Our game contains features such as knockback, realistic lighting, different weapons, unique enemies/bosses, and different game modes. We produced all code, art, sound effects, and music that appear in this game."
+                    description2="Awards for this app: FBLA State Leadership Conference: 1st place. FBLA Area Leadership Conference: 1st place."
+                    image_src="media/theseus icon 2x enlarged.png"
+                    languages="Python, GDScript"
+                    technologies="Django, Repl, Godot, Logic Pro, Aseprite, Davinci Resolve, GIMP"
+                    github="https://github.com"
+                />
+                <Card 
+                    title="Android Quiz App"
+                    description="This app was my very first project, and it was my team's submission for the Mobile Application Development event for Future Business Leaders of America (FBLA) competitions 2018-2019. The app follows the competitions' given prompt: to create an Android app that helps Parliamentary Procedure competitors practice for their event."
+                    description2="Awards for this app: FBLA State Leadership Conference: 3rd place. FBLA Area Leadership Conference: 1st place."
+                    image_src="media/android studio.png"
+                    languages="Java"
+                    technologies="Android Studio, GIMP"
                     github="https://github.com"
                 />
                 <Card 
