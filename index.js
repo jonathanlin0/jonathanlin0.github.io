@@ -65,23 +65,44 @@ function Projects() {
                 <h1>Projects</h1>
                 <Card 
                     title="Instagram Follower Generator"
-                    description="This program can generate Instagram followers completely for free and autonomously. There are multiple options for follower growth within the algorithm. The user can choose from multiple proven methods of growth, or a custom option which combines all of the best methods together. I sold around 20 copies before open-sourcing the bot's code."
+                    description="Social media is saturated nowadays, and the only way to grow on Instagram within a reasonable amount of time is by paying for a service that automates actions, such as liking, commenting, following, and engaging with other accounts."
+                    description2="This program can generate Instagram followers completely for free and autonomously. There are multiple options for follower growth within the algorithm. The user can choose from multiple proven methods of growth, or a custom option which combines all of the best methods together. The backend logic required me to experiment with the Instagram bot detection systems so that the program's users would not get banned by Instagram. To evade being detected as a bot, I incorporated arbitrary pauses and randomized the bot's overall behavior to mimic human behavior. I sold around 20 copies before open-sourcing the bot's code."
+                    image_src="media/Instagram-growth.jpeg"
                     languages="Python, JS, HTML, CSS"
                     technologies="Django, Repl, Selenium, BeautifulSoup, Requests"
                     github="https://github.com"
                 />
                 <Card 
-                    title="Malware Prevention Website"
-                    description="When scouring the internet, I came across a website that was a link-shortening service, similar to Bitly and TinyURl. But this service forced users to download malware before allowing users to proceed to the final, shortened link. To solve this problem, I built a website and accompanying Application Programming Interface (API) where users can input the long link and immediately get the shortened link without downloading any viruses. My website reached approximately 150,000 users before I took it down (I had to study for upcoming AP exams). But I published the source-code, allowing anyone to recreate the website if they wish."
+                    title="Malware Prevention Website & API"
+                    description="When scouring the internet, I came across a website that was a link-shortening service, similar to Bitly and TinyURL. But this service forced users to download malware before allowing users to proceed to the final, shortened link. To solve this problem, I built a website and an accompanying Application Programming Interface (API) where users can input the long link and immediately get the shortened link without downloading any viruses. I used Netlify to host my website and Repl to host my API. My website reached approximately 150,000 users before I took it down (I had to study for upcoming AP exams). But I published the source-code, allowing anyone to recreate the website if they wish."
+                    image_src="media/virus.jpeg"
                     languages="Python"
                     technologies="Pygame, Tkinter, Postman, Requests"
                     github="https://github.com"
                 />
                 <Card 
                     title="Twitter Fake News Checker Bot"
-                    description="I noticed high amounts of fake news spreading across social media, so I created a bot to help combat this. This Twitter bot helps to predict whether a given news article is real or fake by running it through a machine learning model. The model compares the syntax and diction of the given news articles to articles from credited sources, such as Forbes and the New York Times. To use the bot, the user simply has to reply to a given tweet with a link to a news article and mention the bot. Then the bot will use BeautifulSoup to scan the article and retrieve the article's text. The text is then ran through the model. Disclaimer: SATSifaction's tutorial on Youtube helped me with building the core logic of the machine learning model, but I made some adjustments and connected it to a Twitter bot through Tweepy."
+                    description="I noticed high amounts of fake news spreading across social media, so I created a bot to help combat this. This Twitter bot helps to predict whether a given news article is real or fake by running it through a machine learning model. The model compares the syntax and diction of the given news articles to articles from credited sources, such as Forbes and the New York Times."
+                    description2="To use the bot, the user simply has to reply to a given tweet with a link to a news article and mention the bot. Then the bot will use BeautifulSoup to scan the article and retrieve the article's text. The text is then ran through the model. Disclaimer: SATSifaction's tutorial on Youtube helped me with building the core logic of the machine learning model, but I made some adjustments and connected it to a Twitter bot through Tweepy."
+                    image_src="media/twitter gear.png"
                     languages="Python"
                     technologies="Pandas, Scikit-learn, BeautifulSoup, Tweepy, Requests, Postman"
+                    github="https://github.com"
+                />
+                <Card 
+                    title="Piano Tiles Bot"
+                    description="As a way to further my knowledge with automation and web scrapping, I revisited a childhood game: Piano Tiles. This program allows a user to automatically beat any Piano Tiles game."
+                    image_src="media/piano.png"
+                    languages="Python"
+                    technologies="PyAutoGUI, Selenium, Win32API"
+                    github="https://github.com"
+                />
+                <Card 
+                    title="Pi Visualizer"
+                    description="This pi estimation visualizer uses the Monte Carlo Method to estimate the value of pi. The program randomly generates points in a square with a circle inscribed into the square. Then pi is caluclated by multiplying 4 with the ratio between the number of points generated in the circle and the number of total points."
+                    image_src="media/color pi.jpeg"
+                    languages="Python"
+                    technologies="Pygame"
                     github="https://github.com"
                 />
             </div>
@@ -94,12 +115,13 @@ function Card(properties) {
         <div class="entire-card">
             <div class="project">
                 <div class="card-image">
-                    <img src="temp.png" alt="logo" class="project-pic"></img>
+                    <img src={properties.image_src} alt="logo" class="project-pic"></img>
                 </div>
 
                 <div class="card-text">
                     <h2>{properties.title}</h2>
                     <p>{properties.description}</p>
+                    <p>{properties.description2}</p>
                 </div>
             </div>
             <div class="card-tools-used">

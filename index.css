@@ -129,6 +129,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .landing-button {
@@ -200,7 +201,6 @@ body {
   
 /* Add some padding inside the card container */
 .card-text {
-
     padding: 2px 16px;
     width: 100%;
 }
@@ -210,7 +210,7 @@ body {
 }
 
 .card-text p{
-    margin:0;
+    margin: 10px 0 0 0;
 }
 
 .card-tools-used {
