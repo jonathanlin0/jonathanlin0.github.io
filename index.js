@@ -25,12 +25,11 @@ function LandingScreen() {
     return (
         <div class="banner">
             <div class="landing_text">
-                <h1>Welcome to my Portfolio</h1>
+                <h1>Jonathan Lin</h1>
                 <div class="landing_list">
                     <ul>
-                        <li>My name is Jonathan Lin</li>
-                        <li>I'm an incoming student at California Institute of Technology (Caltech) and planning to major in Computer Science</li>
-                        <li>Within CS, I'm interested in AI and big data analysis</li>
+                        <li>Incoming student at California Institute of Technology (Caltech) and planning to major in Computer Science</li>
+                        <li>Interested in AI and big data analysis</li>
                         <li>Plays for Caltech's Division 3 tennis team</li>
                     </ul>
                 </div>
@@ -137,8 +136,8 @@ function Card(properties) {
                 </div>
 
                 <div class="card-text">
-                    <h2>{properties.title}</h2>
-                    <p>{properties.description}</p>
+                    <h2 class="card-text-title">{properties.title}</h2>
+                    <p class="card-text-description">{properties.description}</p>
                     <p>{properties.description2}</p>
                 </div>
             </div>
@@ -159,6 +158,21 @@ function CardButtons(properties) {
     return (
         <div class="card-button">
             <a href={properties.github}>{properties.text}</a>
+        </div>
+    )
+}
+
+function ContactMe() {
+    return (
+        <div class="contact-me-container">
+            <ul>
+                <li>
+                    832-726-3338
+                </li>
+                <li>
+                    jonathanlinonline@gmail.com
+                </li>
+            </ul>
         </div>
     )
 }

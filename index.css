@@ -28,6 +28,7 @@
     font-weight: lighter;
 }
 
+
 @font-face {
     font-family:"Helvetica";
     src: url("fonts/Helvetica/ttf/Helvetica-Bold.ttf") format("truetype");
@@ -44,15 +45,33 @@
     font-weight:lighter;
 }
 
+
+@font-face {
+    font-family:"Nunito";
+    src: url("fonts/Nunito/ttf/Nunito-Bold.ttf") format("truetype");
+    font-weight:bold;
+}
+@font-face {
+    font-family:"Nunito";
+    src: url("fonts/Nunito/ttf/Nunito-Regular.ttf") format("truetype");
+    font-weight:normal;
+}
+@font-face {
+    font-family:"Nunito";
+    src: url("fonts/Nunito/ttf/Nunito-Light.ttf") format("truetype");
+    font-weight:lighter;
+}
+
 * {
     box-sizing: border-box;
     
-    font-family: "Helvetica", Arial, sans-serif;
+    
 }
 
 body {
     margin:0;
     background-color: #333333;
+    font-family: "Nunito", Arial, sans-serif;
 }
 
 .nav {
@@ -110,6 +129,7 @@ body {
 
 .landing_text h1 {
     font-size: 3.5em;
+    font-family: "Uni Sans";
 }
 
 .landing_list {
@@ -160,17 +180,17 @@ body {
 
 .project-container h1{
     font-size: 3em;
-    width: 100%;
     text-align: center;
     color:white;
+    font-family: "Uni Sans";
 }
 
 .entire-card {
     background-color: #404040;
     min-width: 700px;
     border-radius: 5px; /* 5px rounded corners */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -205,11 +225,12 @@ body {
     width: 100%;
 }
 
-.card-text h2 {
+.card-text-title {
     margin-top: 0;
+    font-family: "Uni Sans";
 }
 
-.card-text p{
+.card-text-description {
     margin: 10px 0 0 0;
 }
 
