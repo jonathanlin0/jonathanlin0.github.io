@@ -162,10 +162,10 @@ function CardButtons(properties) {
     )
 }
 
-function ContactMe() {
+function Contact() {
     return (
-        <div class="contact-me-container">
-            <ul>
+        <div class="contact-container">
+            <ul class="contact-list">
                 <li>
                     832-726-3338
                 </li>
@@ -194,6 +194,7 @@ function App() {
             <div>
                 <LandingScreen />
                 <Projects />
+                <Contact />
                 <Footer />
             </div>
             

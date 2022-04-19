@@ -188,11 +188,12 @@ body {
 .entire-card {
     background-color: #404040;
     min-width: 700px;
+    width: 80%;
     border-radius: 5px; /* 5px rounded corners */
-    margin-left: 20%;
-    margin-right: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right:auto;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -261,11 +262,17 @@ body {
     text-decoration: underline;
 }
 
+.contact-container {
+    text-align: center;
+    color:white;
+}
+
+.contact-list {
+    list-style: none
+}
+
 footer {
     color:white;
     height:30px;
-    margin:auto;
-    display:flex;
-    align-items: center;
-    justify-content:center;
+    text-align: center;
 }
