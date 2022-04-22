@@ -178,7 +178,7 @@ body {
     padding-top: 50px;
 }
 
-.project-container h1{
+.subtitle{
     font-size: 3em;
     text-align: center;
     color:white;
@@ -262,13 +262,19 @@ body {
     text-decoration: underline;
 }
 
+#contact-anchor {
+    margin-top: 50px;
+}
+
 .contact-container {
     text-align: center;
     color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.contact-list {
-    list-style: none
+.contact-container-text {
+    margin: 0px 0px 10px 0px;
 }
 
 footer {

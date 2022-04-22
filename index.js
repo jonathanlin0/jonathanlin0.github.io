@@ -41,9 +41,9 @@ function LandingScreen() {
                     />
                     <LandingButton
                         text="Contact"
+                        anchor_id="#contact-anchor"
                     />
                 </div>
-                
             </div>
         </div>
     )
@@ -61,7 +61,7 @@ function Projects() {
     return (
         <div id="projects-anchor">
             <div class="project-container">
-                <h1>Projects</h1>
+                <h1 class="subtitle">Projects</h1>
                 <Card 
                     title="Instagram Follower Generator"
                     description="Social media is saturated nowadays, and the only way to grow on Instagram within a reasonable amount of time is by paying for a service that automates actions, such as liking, commenting, following, and engaging with other accounts."
@@ -69,7 +69,7 @@ function Projects() {
                     image_src="media/Instagram-growth.jpeg"
                     languages="Python, JS, HTML, CSS"
                     technologies="Django, Repl, Selenium, BeautifulSoup, Requests"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/Instagram-Bot"
                 />
                 <Card 
                     title="Malware Prevention Website & API"
@@ -77,7 +77,7 @@ function Projects() {
                     image_src="media/virus.jpeg"
                     languages="Python"
                     technologies="Pygame, Tkinter, Postman, Requests"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/Bypass-Website-API"
                 />
                 <Card 
                     title="Twitter Fake News Checker Bot"
@@ -86,16 +86,16 @@ function Projects() {
                     image_src="media/twitter gear.png"
                     languages="Python"
                     technologies="Pandas, Scikit-learn, BeautifulSoup, Tweepy, Requests, Postman"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/Fake-News"
                 />
                 <Card 
                     title="Theseus: A Legend's Rising"
                     description="This game was my team's submission for the Computer Game and Simulation Programming event for Future Business Leaders of America (FBLA) competitions 2021-2022. On top of the game, we have an external server hosted on Repl that contains the users' scores, allowing people worldwide to compete against one another. The game follows the story of Theseus defeating the Minotaur. It features multiple mazes for the player to find their way through, with different enemies and a unique boss for each level. In addition to singleplayer, we have multiplayer and endless mode. Players can fight each other in multiplayer, and endless mode has the player fight an infinite amount of levels - the levels get harder as the player progresses. Our game contains features such as knockback, realistic lighting, different weapons, unique enemies/bosses, and different game modes. We produced all code, art, sound effects, and music that appear in this game."
-                    description2="Awards for this app: FBLA State Leadership Conference: 1st place. FBLA Area Leadership Conference: 1st place."
+                    description2="Awards for this game: FBLA State Leadership Conference: 1st place. FBLA Area Leadership Conference: 1st place."
                     image_src="media/theseus icon 2x enlarged.png"
                     languages="Python, GDScript"
                     technologies="Django, Repl, Godot, Logic Pro, Aseprite, Davinci Resolve, GIMP"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/Theseus"
                 />
                 <Card 
                     title="Android Quiz App"
@@ -104,7 +104,7 @@ function Projects() {
                     image_src="media/android studio.png"
                     languages="Java"
                     technologies="Android Studio, GIMP"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/FBLA-Mobile-Application-Development"
                 />
                 <Card 
                     title="Piano Tiles Bot"
@@ -112,7 +112,7 @@ function Projects() {
                     image_src="media/piano.png"
                     languages="Python"
                     technologies="PyAutoGUI, Selenium, Win32API"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/piano-tiles-bot"
                 />
                 <Card 
                     title="Pi Visualizer"
@@ -120,7 +120,7 @@ function Projects() {
                     image_src="media/color pi.jpeg"
                     languages="Python"
                     technologies="Pygame"
-                    github="https://github.com"
+                    github="https://github.com/jonathanlin0/Pi-Estimation-Visualizer"
                 />
             </div>
         </div>
@@ -157,22 +157,23 @@ function Card(properties) {
 function CardButtons(properties) {
     return (
         <div class="card-button">
-            <a href={properties.github}>{properties.text}</a>
+            <a href={properties.github} target="_blank">{properties.text}</a>
         </div>
     )
 }
 
 function Contact() {
     return (
-        <div class="contact-container">
-            <ul class="contact-list">
-                <li>
+        <div id="contact-anchor">
+            <div class="contact-container">
+                <h1 class="subtitle">Contact</h1>
+                <p class="contact-container-text">
                     832-726-3338
-                </li>
-                <li>
+                </p>
+                <p class="contact-container-text">
                     jonathanlinonline@gmail.com
-                </li>
-            </ul>
+                </p>
+            </div>
         </div>
     )
 }
