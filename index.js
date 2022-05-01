@@ -4,16 +4,24 @@ function Header() {
             <nav className="nav">
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <a href="index.html" className="nav-item-text">Home</a>
+                        <a href="index.html" className="nav-item-text">
+                            <p class="hover-underline-animation-dark">Home</p>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html#projects-anchor" className="nav-item-text">Projects</a>
+                        <a href="index.html#projects-anchor" className="nav-item-text">
+                            <p class="hover-underline-animation-dark">Projects</p>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a href="https://github.com/jonathanlin0?tab=repositories" className="nav-item-text" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://github.com/jonathanlin0?tab=repositories" className="nav-item-text" target="_blank" rel="noopener noreferrer">
+                            <p class="hover-underline-animation-dark">Github</p>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html#contact-anchor" className="nav-item-text">Contact</a>
+                        <a href="index.html#contact-anchor" className="nav-item-text">
+                            <p class="hover-underline-animation-dark">Contact</p>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -52,7 +60,9 @@ function LandingScreen() {
 function LandingButton(properties) {
     return (
         <div class="landing-button">
-            <a href={properties.anchor_id} class="landing-button-text">{properties.text}</a>
+            <a href={properties.anchor_id} class="landing-button-text">
+                <p class="hover-underline-animation-dark">{properties.text}</p>
+            </a>
         </div>
     )
 }
@@ -139,7 +149,7 @@ function Card(properties) {
 
                 <div class="card-text">
                     <h2 class="card-text-title">{properties.title}</h2>
-                    <p class="card-text-description">{properties.description}</p>
+                        <p class="card-text-description">{properties.description}</p>
                     <p>{properties.description2}</p>
                 </div>
             </div>
@@ -159,7 +169,9 @@ function Card(properties) {
 function CardButtons(properties) {
     return (
         <div class="card-button">
-            <a href={properties.github} target="_blank">{properties.text}</a>
+            <a href={properties.github} target="_blank">
+                <p class="hover-underline-animation-light">{properties.text}</p>
+            </a>
         </div>
     )
 }

@@ -197,7 +197,7 @@ body {
 }
 
 .landing-button {
-    color: #333333;
+    color: #FFF0D9;
     width: max-content;
     align-items: center;
     margin: 0px 5px;
@@ -281,7 +281,6 @@ body {
 .card-text {
     padding: 2px 16px;
     width: 100%;
-    
 }
 
 .card-text-title {
@@ -301,16 +300,15 @@ body {
     background-color: #141414;
     color:#FFF0D9;
     width: max-content;
-    border-radius: 10px;
-    padding: 4px 6px;
-    margin-bottom: 7px;
-}
-
-.card-button:hover {
-    cursor:pointer;
+    border-radius: 12px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .card-button a{
+    cursor:pointer;
     color:#FFF0D9;
     text-decoration: none;
 }
@@ -336,6 +334,55 @@ body {
 
 .contact-container-text {
     margin: 0px 0px 10px 0px;
+}
+
+.hover-underline-animation-light {
+    display: inline-block;
+    position: relative;
+    /*added stuff by me*/
+    margin: 0;
+}
+  
+.hover-underline-animation-light:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF0D9;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation-light:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation-dark {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+  
+.hover-underline-animation-dark:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #141414;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation-dark:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 footer {
