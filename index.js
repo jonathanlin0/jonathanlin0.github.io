@@ -13,7 +13,7 @@ function Header() {
                         <a href="https://github.com/jonathanlin0?tab=repositories" className="nav-item-text" target="_blank" rel="noopener noreferrer">Github</a>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html" className="nav-item-text">Contact</a>
+                        <a href="index.html#contact-anchor" className="nav-item-text">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -60,6 +60,7 @@ function LandingButton(properties) {
 function Projects() {
     return (
         <div id="projects-anchor">
+            <div id="projects-anchor-2">
             <div class="project-container">
                 <h1 class="subtitle">Projects</h1>
                 <Card 
@@ -123,6 +124,7 @@ function Projects() {
                     github="https://github.com/jonathanlin0/Pi-Estimation-Visualizer"
                 />
             </div>
+            </div>
         </div>
     )
 }
@@ -166,7 +168,7 @@ function Contact() {
     return (
         <div id="contact-anchor">
             <div class="contact-container">
-                <h1 class="subtitle">Contact</h1>
+                <h1 class="subtitle" id="contact-subtitle">Contact</h1>
                 <p class="contact-container-text">
                     832-726-3338
                 </p>
