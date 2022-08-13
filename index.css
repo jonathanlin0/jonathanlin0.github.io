@@ -218,19 +218,19 @@ body {
     cursor: pointer;
 }
 
-#projects-anchor {
+#row-projects-anchor {
     background-color: #141414;
     padding-top: 25px;
     margin:0;
 }
 
-#projects-anchor-2 {
+#row-projects-anchor-2 {
     padding-top: 25px;
     background-color: #FFF0D9;
     margin:0;
 }
 
-.project-container {
+.row-project-container {
     background-color: #FFF0D9;
     padding-bottom: 20px;
 }
@@ -241,7 +241,7 @@ body {
     color: #141414;
 }
 
-.entire-card {
+.row-entire-card {
     /*background-color: #404040;*/
     background-color: #fff4e3;
     min-width: 700px;
@@ -261,37 +261,37 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.project {
+.row-project {
     display:flex;
 }
   
 /* On mouse-over, add a deeper shadow */
 
-.card-image {
+.row-card-image {
     flex: 1;
     height: 200px;
 }
 
-.card-image img {
+.row-card-image img {
     border-radius: 5px;
     height: 100%;
 }
   
 /* Add some padding inside the card container */
-.card-text {
+.row-card-text {
     padding: 2px 16px;
     width: 100%;
 }
 
-.card-text-title {
+.row-card-text-title {
     margin-top: 0;
 }
 
-.card-text-description {
+.row-card-text-description {
     margin: 10px 0 0 0;
 }
 
-.card-tools-used {
+.row-card-tools-used {
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -317,11 +317,12 @@ body {
     text-decoration: underline;
 }
 
-#temp_card_anchor{
-    background: #FFF0D9;
+#cards_anchor{
+    padding-top: 25px;
+    background: #FFF0D9; 
 }
 
-.temp_cards {
+.cards {
     margin: 0 auto;
     max-width: 1300px;
     display: grid;
@@ -332,11 +333,11 @@ body {
     background-color: #FFF0D9;
 }
 
-.temp_cards * {
+.cards * {
     box-sizing:border-box;
 }
 
-.temp_card {
+.card {
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
@@ -348,21 +349,21 @@ body {
     width: 480px;
 }
 
-.temp_card_content {
+.card:hover {
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.card_content {
     padding: 15px;
     margin-bottom: 23px;
 }
 
-.temp_card:hover {
-    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.4);
-}
-
-.temp_card_gif {
+.card_gif {
     width: 480px;
     height: 270px;
 }
 
-.temp_card_footer {
+.card_footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
