@@ -108,7 +108,6 @@
 * {
     box-sizing: border-box;
     
-    
 }
 
 body {
@@ -169,7 +168,6 @@ body {
     transform: translateY(-50%);
     text-align: center;
     color: #FFF0D9;
-    
 }
 
 .landing_text h1 {
@@ -257,10 +255,6 @@ body {
     color: #141414;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .row-project {
     display:flex;
 }
@@ -319,7 +313,7 @@ body {
 
 #cards_anchor{
     padding-top: 25px;
-    background: #FFF0D9; 
+    background: #FFF0D9;
 }
 
 .cards {
@@ -336,6 +330,7 @@ body {
 .cards * {
     box-sizing:border-box;
 }
+
 
 .card {
     margin-top: 20px;
@@ -448,4 +443,73 @@ footer {
     color: #FFF0D9;
     height:30px;
     text-align: center;
+}
+
+/* things that change when on mobile phone*/
+@media only screen and (max-width: 767px) {
+    .nav{
+        display:none;
+    }
+
+    .landing_text h1{
+        font-size: 2.4em;
+    }
+
+    .landing_list {
+        width: 80%;
+    }
+    
+    .landing_text li{
+        font-size: 1.3em;
+        text-align: left;
+        padding-top:10px;
+    }
+
+    .cards {
+        margin: 0 auto;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(331px, 1fr));
+        grid-auto-rows: auto;
+        gap: 10px;
+        padding-top: 40px;
+        background-color: #FFF0D9;
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        outline: 5px solid #141414;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+        width: 331px;
+    }
+
+    .card:hover {
+        box-shadow: 13px 13px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    .card_content {
+        padding: 10px;
+        margin-bottom: 23px;
+    }
+
+    .card_gif {
+        width: 331px;
+        height: 199px;
+    }
+
+    .card_footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8em;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding: 15px;
+    }
 }

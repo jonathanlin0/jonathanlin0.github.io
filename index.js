@@ -253,22 +253,24 @@ function CardContainer(properties) {
 
 function Card(properties) {
     return (
-        <div class="card">
-            <img src={properties.image_src} alt={properties.image_src_alt} class="card_gif"></img>
-            <div class="card_content">
-                <h2 class="row-card-text-title">{properties.title}</h2>
-                <p>{properties.text_1}</p>
-                <p>{properties.text_2}</p>
-                <p>{properties.text_3}</p>
-                <p>Technologies used: {properties.technologies}</p>
+
+            <div class="card">
+                <img src={properties.image_src} alt={properties.image_src_alt} class="card_gif"></img>
+                <div class="card_content">
+                    <h2 class="row-card-text-title">{properties.title}</h2>
+                    <p>{properties.text_1}</p>
+                    <p>{properties.text_2}</p>
+                    <p>{properties.text_3}</p>
+                    <p>Technologies used: {properties.technologies}</p>
+                </div>
+                <div class="card_footer">
+                    <CardButtons 
+                        text="Source Code"
+                        github={properties.source_code}
+                    />              
+                </div>
             </div>
-            <div class="card_footer">
-                <CardButtons 
-                    text="Source Code"
-                    github={properties.source_code}
-                />              
-            </div>
-        </div>
+
     )
 }
 
