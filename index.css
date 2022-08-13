@@ -317,6 +317,64 @@ body {
     text-decoration: underline;
 }
 
+#temp_card_anchor{
+    background: #FFF0D9;
+}
+
+.temp_cards {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    padding-top: 40px;
+    background-color: #FFF0D9;
+}
+
+.temp_cards * {
+    box-sizing:border-box;
+}
+
+.temp_card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 5px solid #141414;
+    border-radius: 5px;
+    box-shadow: 13px 13px 10px 0px rgba(0, 0, 0, 0.3);
+    width: 480px;
+}
+
+.temp_card_content {
+    padding: 15px;
+    margin-bottom: 23px;
+}
+
+.temp_card:hover {
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.temp_card_gif {
+    width: 480px;
+    height: 270px;
+}
+
+.temp_card_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+}
+
+
+
 #contact-anchor {
     margin-top: 50px;
 }
