@@ -207,7 +207,7 @@ function CardContainer(properties) {
                     />
                     <Card 
                         title="Theseus: A Legend's Rising"
-                        image_src="media/gifs/Instagram_Bot.gif"
+                        image_src="media/gifs/720p/Twitter_Fake_News_Bot.gif"
                         image_src_alt="Instagram Bot Gif"
                         text_1="This game was my team's submission for the Computer Game and Simulation Programming event for Future Business Leaders of America (FBLA) competitions 2021-2022. On top of the game, we have an external server hosted on Repl that contains the users' scores, allowing people worldwide to compete against one another. The game follows the story of Theseus defeating the Minotaur. It features multiple mazes for the player to find their way through, with different enemies and a unique boss for each level. In addition to singleplayer, we have multiplayer and endless mode. Players can fight each other in multiplayer, and endless mode has the player fight an infinite amount of levels - the levels get harder as the player progresses. Our game contains features such as knockback, realistic lighting, different weapons, unique enemies/bosses, and different game modes. We produced all code, art, sound effects, and music that appear in this game."
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
