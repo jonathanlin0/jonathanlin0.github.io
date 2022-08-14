@@ -217,7 +217,7 @@ function CardContainer(properties) {
                     />
                     <Card 
                         title="Android Quiz App"
-                        image_src="media/gifs/Instagram_Bot.gif"
+                        image_src="media/gifs/Quiz_App.gif"
                         image_src_alt="Android Quiz App Gif"
                         text_1="This app was my very first project, and it was my team's submission for the Mobile Application Development event for Future Business Leaders of America (FBLA) competitions 2018-2019. The app follows the competitions' given prompt: to create an Android app that helps Parliamentary Procedure competitors practice for their event."
                         text_2="Awards for this app: FBLA Nationals Comeptition qualifier and competitor. FBLA State Comeptition: 3rd place. FBLA Area Comeptition: 1st place."
