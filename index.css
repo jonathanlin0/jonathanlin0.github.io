@@ -473,6 +473,9 @@ footer {
 
     #cards_anchor{
         padding-bottom: 10px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
 
     .cards {
@@ -496,7 +499,6 @@ footer {
         border-radius: 10px;
         box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
         width: 331px;
-        -webkit-appearance: none;
     }
 
     .card:hover {
