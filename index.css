@@ -496,7 +496,7 @@ footer {
         border-radius: 10px;
         box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
         width: 331px;
-        border-spacing: 0;
+        -webkit-appearance: none;
     }
 
     .card:hover {
