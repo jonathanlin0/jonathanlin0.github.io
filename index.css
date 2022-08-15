@@ -313,6 +313,7 @@ body {
 
 #cards_anchor{
     padding-top: 25px;
+    padding-bottom: 20px;
     background: #FFF0D9;
 }
 
@@ -468,6 +469,10 @@ footer {
     .landing-button-text {
         font-weight: bold;
         font-size: 1em;
+    }
+
+    #cards_anchor{
+        padding-bottom: 10px;
     }
 
     .cards {
