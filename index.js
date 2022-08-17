@@ -225,6 +225,16 @@ function CardContainer(properties) {
                         technologies="Java, Android Studio, GIMP"
                         source_code="https://github.com/jonathanlin0/FBLA-Mobile-Application-Development"
                     />
+                    <Card
+                        title="Instagram Message Unsender/Deleter"
+                        image_src="media/gifs/720p/Instagram_DM_Unsender.gif"
+                        image_src_alt="Instagram Message Unsender Gif"
+                        text_1="Utilized computer vision (OpenCV) and PyAutoGUI to automatically and permanently delete sent messages, images, and posts in Instagram Direct Messages. Bot performance averages around 1,000 messages deleted per hour, depending on the computer's processing speeds and bandwidth speeds."
+                        text_2=""
+                        text_3=""
+                        technologies="Python, PyAutoGUI, Win32API , Python-ImageSearch"
+                        source_code="https://github.com/jonathanlin0/Instagram-DM-Unsender"
+                    />
                     <Card 
                         title="Piano Tiles Bot"
                         image_src="media/gifs/720p/Piano_Tiles.gif"
