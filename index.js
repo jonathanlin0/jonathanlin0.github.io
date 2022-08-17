@@ -2,6 +2,7 @@ function Header() {
     return (
         <header>
             <nav className="nav">
+                <h1>Jonathan Lin</h1>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <a href="index.html" className="nav-item-text">
