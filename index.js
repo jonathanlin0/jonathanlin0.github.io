@@ -60,9 +60,9 @@ function LandingScreen() {
             </div>
             <div id="arrow-section-container">
                 <section id="arrow-section">
-                <p>Projects</p>
-                <a href="#cards_anchor"><span></span></a>
-            </section>
+                    <p>Projects</p>
+                    <a href="#cards_anchor"><span></span></a>
+                </section>
             </div>
             
         </div>
