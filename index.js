@@ -2,7 +2,9 @@ function Header() {
     return (
         <header>
             <nav className="nav">
-                <h1>Jonathan Lin</h1>
+                <a href="index.html" class="name-icon">
+                    <h1>Jonathan Lin</h1>
+                </a>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <a href="index.html" className="nav-item-text">
@@ -33,27 +35,36 @@ function Header() {
 function LandingScreen() {
     return (
         <div class="banner">
-            <div class="landing_text">
-                <h1>Jonathan Lin</h1>
-                <div class="landing_list">
-                    <ul>
-                        <li>Incoming student at the California Institute of Technology and planning to major in Computer Science</li>
-                        <li>Interested in AI and big data analysis</li>
-                        <li>Plays for Caltech's Division 3 tennis team</li>
-                    </ul>
-                </div>
-                
-                <div class="landing-buttons">
-                    <LandingButton 
-                        text="My Projects"
-                        anchor_id="#projects-anchor"
-                    />
-                    <LandingButton
-                        text="Contact"
-                        anchor_id="#contact-anchor"
-                    />
+            <div class="banner-container">
+                <div class="banner-text">
+                    <h1>Jonathan Lin</h1>
+                    <div class="landing_list">
+                        <ul>
+                            <li>Incoming student at the California Institute of Technology and planning to major in Computer Science</li>
+                            <li>Interested in AI and big data analysis</li>
+                            <li>Plays for Caltech's Division 3 tennis team</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="landing-buttons">
+                        <LandingButton 
+                            text="My Projects"
+                            anchor_id="#projects-anchor"
+                        />
+                        <LandingButton
+                            text="Contact"
+                            anchor_id="#contact-anchor"
+                        />
+                    </div>
                 </div>
             </div>
+            <div id="arrow-section-container">
+                <section id="arrow-section">
+                <p>Projects</p>
+                <a href="#cards_anchor"><span></span></a>
+            </section>
+            </div>
+            
         </div>
     )
 }
