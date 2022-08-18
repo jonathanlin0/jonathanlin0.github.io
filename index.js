@@ -35,6 +35,12 @@ function Header() {
 function LandingScreen() {
     return (
         <div class="banner">
+            <div id="arrow-section-container">
+                <section id="arrow-section">
+                    <p>Projects</p>
+                    <a href="#cards_anchor"><span></span></a>
+                </section>
+            </div>
             <div class="banner-container">
                 <div class="banner-text">
                     <h1>Jonathan Lin</h1>
@@ -58,13 +64,6 @@ function LandingScreen() {
                     </div>
                 </div>
             </div>
-            <div id="arrow-section-container">
-                <section id="arrow-section">
-                    <p>Projects</p>
-                    <a href="#cards_anchor"><span></span></a>
-                </section>
-            </div>
-            
         </div>
     )
 }
