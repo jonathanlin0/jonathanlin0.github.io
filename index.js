@@ -12,7 +12,7 @@ function Header() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html#row-projects-anchor" className="nav-item-text">
+                        <a href="index.html#cards_anchor" className="nav-item-text">
                             <p class="hover-underline-animation-dark">Projects</p>
                         </a>
                     </li>
@@ -187,7 +187,7 @@ function CardContainer(properties) {
                 <h1 class="subtitle">Projects</h1>
                 <div class="cards">
                     <Card 
-                        title="Instagram Bot"
+                        title="Instagram Follower Generator"
                         image_src="media/gifs/720p/Instagram_Bot.gif"
                         image_src_alt="Instagram Bot Gif"
                         text_1="Sold 20+ licensed copies and created frontend using Tkinter and Pygame. Utilized HTTP Requests to create numerous propriety, targeted algorithms that autonomously generate thousands of real Instagram followers for any user. Employed BeautifulSoup and Selenium to scrape data from Instagram and optimize the account growth algorithms."
@@ -223,7 +223,7 @@ function CardContainer(properties) {
                         text_1="Full-stack video game with 34,400 lines of code, including creating a database and an online multiplayer server. Utilized GET HTTP Requests and Django for worldwide client-database communication. Used TCP and UDP connection protocols for global and LAN client-server communication. Deployable on any VPS."
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
                         text_3=""
-                        technologies="Python, GDScript, Django, Repl, Godot, Logic Pro, Aseprite, Davinci Resolve, GIMP"
+                        technologies="Python, GDScript, Django, Requests, Repl, Godot, Logic Pro, Aseprite, Davinci Resolve, GIMP"
                         source_code="https://github.com/jonathanlin0/Theseus"
                     />
                     <Card 
