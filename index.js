@@ -260,7 +260,7 @@ function CardContainer(properties) {
                         title="Pi Visualizer"
                         image_src="media/gifs/720p/Pi_Visualizer.gif"
                         image_src_alt="Instagram Bot Gif"
-                        text_1="This pi estimation visualizer uses the Monte Carlo Method to estimate the value of pi. The program randomly generates points in a square with a circle inscribed into the square. Then pi is caluclated by multiplying 4 with the ratio between the number of points generated in the circle and the number of total points."
+                        text_1="This pi estimation visualizer uses the Monte Carlo method to estimate the value of pi. The program randomly generates points in a square with a circle inscribed into the square. Then pi is caluclated by multiplying 4 with the ratio between the number of points generated in the circle and the number of total points."
                         text_2=""
                         text_3=""
                         technologies="Python, Pygame"
