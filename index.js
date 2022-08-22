@@ -198,7 +198,7 @@ function CardContainer(properties) {
                     />
                     <Card 
                         title="Malware Prevention Website & API"
-                        image_src="media/gifs/720p/Instagram_Bot.gif"
+                        image_src="media/gifs/1080p/Bypass_Website.png"
                         image_src_alt="Malware Prevention Website & API Gif"
                         text_1="250,000+ visits, 44,000+ unique users. Coded frontend website and backend to protect users’ computers from malicious, link-shortening websites. Backend successfully handled 10+ requests per second by using rotating proxies, Django, and Replit. Utilized custom Rest APIs and data processing for frontend backend communication."
                         text_2=""
@@ -218,8 +218,8 @@ function CardContainer(properties) {
                     />
                     <Card 
                         title="Theseus: A Legend's Rising"
-                        image_src="media/gifs/720p/Twitter_Fake_News_Bot.gif"
-                        image_src_alt="Instagram Bot Gif"
+                        image_src="media/gifs/720p/Theseus.gif"
+                        image_src_alt="Theseus Gif"
                         text_1="Full-stack video game with 34,400 lines of code, including creating a database and an online multiplayer server. Utilized GET HTTP Requests and Django for worldwide client-database communication. Used TCP and UDP connection protocols for global and LAN client-server communication. Deployable on any VPS."
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
                         text_3=""
