@@ -231,7 +231,7 @@ function CardContainer(properties) {
                         image_src="media/gifs/720p/Quiz_App.gif"
                         image_src_alt="Android Quiz App Gif"
                         text_1="First computer science project. Utilized Android Studio and Java to create quiz app that helps students prepare for Parliamentary Procedure event."
-                        text_2="Awards for this app: FBLA Nationals Comeptition qualifier and competitor. FBLA State Comeptition: 3rd place. FBLA Area Comeptition: 1st place."
+                        text_2="Awards for this app: FBLA Nationals Competition qualifier and competitor. FBLA State Competition: 3rd place. FBLA Area Competition: 1st place."
                         text_3=""
                         technologies="Java, Android Studio, GIMP"
                         source_code="https://github.com/jonathanlin0/FBLA-Mobile-Application-Development"
