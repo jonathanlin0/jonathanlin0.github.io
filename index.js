@@ -189,7 +189,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Instagram Follower Generator"
                         image_src="media/gifs/720p/Instagram_Bot.gif"
-                        image_src_alt="Instagram Bot Gif"
+                        image_src_alt="Loading Instagram Bot Gif"
                         text_1="Sold 20+ licensed copies and created frontend using Tkinter and Pygame. Utilized HTTP Requests to create numerous propriety, targeted algorithms that autonomously generate thousands of real Instagram followers for any user. Employed BeautifulSoup and Selenium to scrape data from Instagram and optimize the account growth algorithms."
                         text_2=""
                         text_3=""
@@ -199,7 +199,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Malware Prevention Website & API"
                         image_src="media/gifs/1080p/Bypass_Website.png"
-                        image_src_alt="Malware Prevention Website & API Gif"
+                        image_src_alt="Loading Malware Prevention Website & API Gif"
                         text_1="250,000+ visits, 44,000+ unique users. Coded frontend website and backend to protect users’ computers from malicious, link-shortening websites. Backend successfully handled 10+ requests per second by using rotating proxies, Django, and Replit. Utilized custom Rest APIs and data processing for frontend backend communication."
                         text_2=""
                         text_3=""
@@ -209,7 +209,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Twitter Fake News Checker Bot"
                         image_src="media/gifs/720p/Twitter_Fake_News_Bot.gif"
-                        image_src_alt="Twitter Fake News Checker Bot Gif"
+                        image_src_alt="Loading Twitter Fake News Checker Bot Gif"
                         text_1="Machine learning algorithm to compare syntax and diction of a given news article to credible sources to determine if a given news article is real. Connected model to a Twitter bot through Tweepy."
                         text_2=""
                         text_3=""
@@ -219,7 +219,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Theseus: A Legend's Rising"
                         image_src="media/gifs/720p/Theseus.gif"
-                        image_src_alt="Theseus Gif"
+                        image_src_alt="Loading Theseus Gif"
                         text_1="Full-stack video game with 34,400 lines of code, including creating a database and an online multiplayer server. Utilized GET HTTP Requests and Django for worldwide client-database communication. Used TCP and UDP connection protocols for global and LAN client-server communication. Deployable on any VPS."
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
                         text_3=""
@@ -229,7 +229,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Android Quiz App"
                         image_src="media/gifs/720p/Quiz_App.gif"
-                        image_src_alt="Android Quiz App Gif"
+                        image_src_alt="Loading Android Quiz App Gif"
                         text_1="First computer science project. Utilized Android Studio and Java to create quiz app that helps students prepare for Parliamentary Procedure event."
                         text_2="Awards for this app: FBLA Nationals Competition qualifier and competitor. FBLA State Competition: 3rd place. FBLA Area Competition: 1st place."
                         text_3=""
@@ -239,7 +239,7 @@ function CardContainer(properties) {
                     <Card
                         title="Instagram Message Unsender/Deleter"
                         image_src="media/gifs/720p/Instagram_DM_Unsender.gif"
-                        image_src_alt="Instagram Message Unsender Gif"
+                        image_src_alt="Loading Instagram Message Unsender Gif"
                         text_1="Utilized computer vision (OpenCV) and PyAutoGUI to automatically and permanently delete sent messages, images, and posts in Instagram Direct Messages. Bot performance averages around 1,000 messages deleted per hour, depending on the computer's processing speeds and bandwidth speeds."
                         text_2=""
                         text_3=""
@@ -249,7 +249,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Piano Tiles Bot"
                         image_src="media/gifs/720p/Piano_Tiles.gif"
-                        image_src_alt="Piano Tiles Gif"
+                        image_src_alt="Loading Piano Tiles Gif"
                         text_1="Employed PyAutoGUI to recognize black tiles on the screen and Win32API to control the mouse and keyboard to automatically play Piano Tiles."
                         text_2=""
                         text_3=""
@@ -259,7 +259,7 @@ function CardContainer(properties) {
                     <Card 
                         title="Pi Visualizer"
                         image_src="media/gifs/720p/Pi_Visualizer.gif"
-                        image_src_alt="Instagram Bot Gif"
+                        image_src_alt="Loading Instagram Bot Gif"
                         text_1="This pi estimation visualizer uses the Monte Carlo method to estimate the value of pi. The program randomly generates points in a square with a circle inscribed into the square. Then pi is caluclated by multiplying 4 with the ratio between the number of points generated in the circle and the number of total points."
                         text_2=""
                         text_3=""
