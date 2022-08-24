@@ -317,6 +317,9 @@ function Contact() {
                 <p class="contact-container-text">
                     jonathanlinonline@gmail.com
                 </p>
+                <p class="contact-container-text">
+                    linkedin.com/in/j-lin0
+                </p>
             </div>
         </div>
     )
