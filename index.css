@@ -583,7 +583,7 @@ footer {
 
     .card_content {
         padding: 10px;
-        margin-bottom: 23px;
+        margin-bottom: 19px;
     }
 
     .card_gif {
@@ -599,6 +599,6 @@ footer {
         width: 100%;
         position: absolute;
         bottom: 0;
-        padding: 15px;
+        padding: 10px;
     }
 }
