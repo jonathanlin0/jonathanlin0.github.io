@@ -47,8 +47,8 @@ function LandingScreen() {
                     <div class="landing_list">
                         <ul>
                             <li>Incoming student at the California Institute of Technology and planning to major in Computer Science</li>
-                            <li>Interested in AI and big data analysis</li>
-                            <li>Plays for Caltech's Division 3 tennis team</li>
+                            <li>Interested in AI, big data analysis, and backend development</li>
+                            <li>Plays for Caltech's NCAA Varsity tennis team</li>
                         </ul>
                     </div>
                     
@@ -315,7 +315,7 @@ function Contact() {
                     832-726-3338
                 </p>
                 <p class="contact-container-text">
-                    jonathanlinonline@gmail.com
+                    jonathan@caltech.edu
                 </p>
                 <p class="contact-container-text">
                     linkedin.com/in/j-lin0
