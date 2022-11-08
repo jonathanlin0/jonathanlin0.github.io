@@ -190,7 +190,7 @@ function CardContainer(properties) {
                         title="Instagram Follower Generator"
                         image_src="media/gifs/720p/Instagram_Bot.gif"
                         image_src_alt="Loading Instagram Bot Gif"
-                        text_1="Sold 20+ licensed copies and created frontend using Tkinter and Pygame. Utilized HTTP Requests to create numerous propriety, targeted algorithms that autonomously generate thousands of real Instagram followers for any user. Employed BeautifulSoup and Selenium to scrape data from Instagram and optimize the account growth algorithms."
+                        text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Utilized HTTP Requests to create numerous propriety, targeted algorithms that increase account exposure by 10x and autonomously generate thousands of real Instagram followers for any user. Employed BeautifulSoup and Selenium to scrape data from Instagram and optimize the growth algorithms."
                         text_2=""
                         text_3=""
                         technologies="Python, JS, HTML, CSS, Django, Repl, Selenium, BeautifulSoup, Requests"
@@ -217,10 +217,10 @@ function CardContainer(properties) {
                         source_code="https://github.com/jonathanlin0/Fake-News"
                     />
                     <Card 
-                        title="Theseus: A Legend's Rising"
+                        title="Theseus Video Game"
                         image_src="media/gifs/720p/Theseus.gif"
                         image_src_alt="Loading Theseus Gif"
-                        text_1="Full-stack video game with 34,400 lines of code, including creating a database and an online multiplayer server. Utilized GET HTTP Requests and Django for worldwide client-database communication. Used TCP and UDP connection protocols for global and LAN client-server communication. Deployable on any VPS."
+                        text_1="Full-stack video game with 34,400+ lines of code, including creating a database and an online multiplayer server. Utilized GET HTTP Requests and Django for worldwide client-database communication. Used TCP and UDP connection protocols for global and LAN client-server communication. Deployable on any VPS."
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
                         text_3=""
                         technologies="Python, GDScript, Django, Requests, Repl, Godot, Logic Pro, Aseprite, Davinci Resolve, GIMP"
