@@ -443,6 +443,29 @@ body {
 }
 
 
+#site-info-subtitle {
+    margin-top: 10px;
+    margin-bottom: -20px;
+    color:#FFF0D9;
+}
+
+.site-info-container {
+    text-align: center;
+    color:#FFF0D9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.site-info-container-text {
+    margin: 0px 0px 10px 0px;
+}
+
+.site-info-container a {
+    color:#FFF0D9;
+    cursor:pointer;
+    text-decoration: underline;
+    
+}
 
 #contact-anchor {
     margin-top: 50px;

@@ -325,6 +325,22 @@ function Contact() {
     )
 }
 
+function SiteInfo() {
+    return (
+        <div id="site-info">
+            <h1 class="subtitle" id="site-info-subtitle">Site Info</h1>
+            <div class="site-info-container">
+                <p class="site-info-container-text">
+                    Tools Used: HTML/CSS and React
+                </p>
+                <p class="site-info-container-text">
+                    <a href="https://github.com/jonathanlin0/jonathanlin0.github.io" target="_blank">Website Source Code</a>
+                </p>
+            </div>
+        </div>
+    )
+}
+
 function Footer() {
     return (
         <footer>
@@ -349,6 +365,7 @@ function App() {
                 <LandingScreen />
                 <CardContainer />
                 <Contact />
+                <SiteInfo />
                 <Footer />
             </div>
             
