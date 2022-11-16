@@ -17,7 +17,7 @@ function Header() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="https://github.com/jonathanlin0?tab=repositories" className="nav-item-text" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/jonathanlin0" className="nav-item-text" target="_blank" rel="noopener noreferrer">
                             <p class="hover-underline-animation-dark">Github</p>
                         </a>
                     </li>
