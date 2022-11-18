@@ -46,7 +46,7 @@ function LandingScreen() {
                     <h1>Jonathan Lin</h1>
                     <div class="landing_list">
                         <ul>
-                            <li>Incoming student at the California Institute of Technology and planning to major in Computer Science</li>
+                            <li>Studying Computer Science at the California Institute of Technology</li>
                             <li>Interested in AI, big data analysis, and backend development</li>
                             <li>Plays for Caltech's NCAA Varsity tennis team</li>
                         </ul>
