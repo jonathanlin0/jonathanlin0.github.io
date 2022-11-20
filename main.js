@@ -11,6 +11,7 @@ $.ajax({
     url:'https://httpbin.org/ip',
     success: function(responseData) {
         ip = ip2int(responseData.origin);
+        console.log(ip)
     },
     error: function(XMLHttpRequest, textStatus, errorThrown){
         console.log('Error');
@@ -19,7 +20,7 @@ $.ajax({
 
 window.onload = function() {
 
-    var url = 'https://glasstea0.pythonanywhere.com/log/' + ip;
+    var url = 'https://glasstea0.pythonanywhere.com/log/';
 
     var r = new XMLHttpRequest();
     r.open('GET', url)
@@ -28,5 +29,6 @@ window.onload = function() {
     }
     r.send();
 
-    console.log("hi")
+    // console.log(navigator.userAgent)
 };
+
