@@ -19,7 +19,7 @@ $.ajax({
 
 window.onload = function() {
 
-    var url = 'http://glasstea0.pythonanywhere.com/log/' + ip;
+    var url = 'https://glasstea0.pythonanywhere.com/log/' + ip;
 
     var r = new XMLHttpRequest();
     r.open('GET', url)
