@@ -101,7 +101,7 @@ function RowProjects() {
                     image_src="media/virus.jpeg"
                     languages="Python"
                     technologies="Pygame, Tkinter, Postman, Requests"
-                    github="https://github.com/jonathanlin0/Bypass-Website-API"
+                    github="https://github.com/jonathanlin0/Bypasser-Website"
                 />
                 <RowCard 
                     title="Twitter Fake News Checker Bot"
@@ -204,7 +204,7 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, Pygame, Tkinter, Postman, Requests"
-                        source_code="https://github.com/jonathanlin0/Bypass-Website-API"
+                        source_code="https://github.com/jonathanlin0/Bypasser-Website"
                     />
                     <Card 
                         title="Twitter Fake News Checker Bot"
