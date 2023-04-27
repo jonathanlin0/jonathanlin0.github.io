@@ -47,7 +47,8 @@ function LandingScreen() {
                     <div class="landing_list">
                         <ul>
                             <li>Studying Computer Science at the California Institute of Technology</li>
-                            <li>Interested in AI, big data analysis, and backend development</li>
+                            <li>Passionate about solving real world problems with computer science</li>
+                            <li>Currently doing machine learning and computer vision related research</li>
                             <li>Plays for Caltech's NCAA Varsity tennis team</li>
                         </ul>
                     </div>
@@ -190,7 +191,7 @@ function CardContainer(properties) {
                         title="Instagram Follower Generator"
                         image_src="media/gifs/720p/Instagram_Bot.gif"
                         image_src_alt="Loading Instagram Bot Gif"
-                        text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Utilized HTTP Requests to create numerous propriety, targeted algorithms that increase account exposure by 10x and autonomously generate thousands of real Instagram followers for any user. Employed BeautifulSoup and Selenium to scrape data from Instagram and optimize the growth algorithms."
+                        text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Reverse engineered Instagram’s recommendation algorithm to create numerous propriety, targeted methods that increase account exposure by 10x and autonomously generate real Instagram followers for any user. Utilized Beautiful Soup and HTTP Requests to scrape data from Instagram and optimize the growth algorithms."
                         text_2=""
                         text_3=""
                         technologies="Python, JS, HTML, CSS, Django, Repl, Selenium, BeautifulSoup, Requests"
