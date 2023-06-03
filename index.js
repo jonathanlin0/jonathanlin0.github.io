@@ -345,7 +345,7 @@ function SiteInfo() {
 function Footer() {
     return (
         <footer>
-            <small>© Jonathan Lin 2022. All rights reserved.</small>
+            <small>© Jonathan Lin 2021-2023. All rights reserved.</small>
         </footer>
     )
 }
