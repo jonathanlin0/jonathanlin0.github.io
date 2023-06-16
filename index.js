@@ -115,7 +115,7 @@ function CardContainer(properties) {
                 <div class="cards">
                     <Card 
                         title="Instagram Follower Generator"
-                        image_src="media/gifs/480p/Instagram_Bot.gif"
+                        image_src="media/gifs/360p/Instagram_Bot.gif"
                         image_src_alt="Loading Instagram Bot Gif"
                         text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Reverse engineered Instagram’s recommendation algorithm to create numerous propriety, targeted methods that increase account exposure by 10x and autonomously generate real Instagram followers for any user. Utilized Beautiful Soup and HTTP Requests to scrape data from Instagram and optimize the growth algorithms."
                         text_2=""
@@ -134,18 +134,8 @@ function CardContainer(properties) {
                         source_code="https://github.com/jonathanlin0/Bypasser-Website"
                     />
                     <Card 
-                        title="Twitter Fake News Checker Bot"
-                        image_src="media/gifs/480p/Twitter_Fake_News_Bot.gif"
-                        image_src_alt="Loading Twitter Fake News Checker Bot Gif"
-                        text_1="Machine learning algorithm to compare syntax and diction of a given news article to credible sources to determine if a given news article is real. Connected model to a Twitter bot through Tweepy."
-                        text_2=""
-                        text_3=""
-                        technologies="Python, Pandas, Scikit-learn, BeautifulSoup, Tweepy, Requests, Postman"
-                        source_code="https://github.com/jonathanlin0/Fake-News"
-                    />
-                    <Card 
                         title="Theseus Video Game"
-                        image_src="media/gifs/480p/Theseus.gif"
+                        image_src="media/gifs/360p/Theseus.gif"
                         image_src_alt="Loading Theseus Gif"
                         text_1="Full-stack video game with 34,400+ lines of code, including creating a database and an online multiplayer server. Utilized GET HTTP Requests and Django for worldwide client-database communication. Used TCP and UDP connection protocols for global and LAN client-server communication. Deployable on any VPS."
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
@@ -154,8 +144,28 @@ function CardContainer(properties) {
                         source_code="https://github.com/jonathanlin0/Theseus"
                     />
                     <Card 
+                        title="Twitter Fake News Checker Bot"
+                        image_src="media/gifs/360p/Twitter_Fake_News_Bot.gif"
+                        image_src_alt="Loading Twitter Fake News Checker Bot Gif"
+                        text_1="Machine learning algorithm to compare syntax and diction of a given news article to credible sources to determine if a given news article is real. Connected model to a Twitter bot through Tweepy."
+                        text_2=""
+                        text_3=""
+                        technologies="Python, Pandas, Scikit-learn, BeautifulSoup, Tweepy, Requests, Postman"
+                        source_code="https://github.com/jonathanlin0/Fake-News"
+                    />
+                    <Card 
+                        title="Physics Engine"
+                        image_src="media/gifs/360p/Physics_Engine.gif"
+                        image_src_alt="Loading Physics Engine Gif"
+                        text_1="Coded physics sandbox solely in C from scratch that allows users to create physics-based games, simulations, or applications. Includes functionality for classical forces (gravity, drag, springs, etc.), collision detection, scene and body encapsulation, memory management, keyboard/mouse input. Has prebuilt demo examples and functional tests."
+                        text_2=""
+                        text_3=""
+                        technologies="C, Emscripten, SDL2, Gitlab"
+                        source_code="https://github.com/jonathanlin0/Physics-Engine-C"
+                    />
+                    <Card 
                         title="Android Quiz App"
-                        image_src="media/gifs/480p/Quiz_App.gif"
+                        image_src="media/gifs/360p/Quiz_App.gif"
                         image_src_alt="Loading Android Quiz App Gif"
                         text_1="First computer science project. Utilized Android Studio and Java to create quiz app that helps students prepare for Parliamentary Procedure event."
                         text_2="Awards for this app: FBLA Nationals Competition qualifier and competitor. FBLA State Competition: 3rd place. FBLA Area Competition: 1st place."
@@ -163,9 +173,19 @@ function CardContainer(properties) {
                         technologies="Java, Android Studio, GIMP"
                         source_code="https://github.com/jonathanlin0/FBLA-Mobile-Application-Development"
                     />
+                    <Card 
+                        title="Proxy Generator & Checker"
+                        image_src="media/gifs/360p/Proxy_Generator.gif"
+                        image_src_alt="Loading Proxy Generator Gif"
+                        text_1="Built system to generate and check 3000+ proxies in <10 seconds. Proxy generator collects high quality proxies from online sources. Multi-threaded proxy checker has configurable rate (typically 300+ proxy checks per second on modern laptops)."
+                        text_2=""
+                        text_3=""
+                        technologies="Python, Selenium, Requests, Beautiful Soup 4"
+                        source_code="https://github.com/jonathanlin0/Tools/tree/main/proxy_generator"
+                    />
                     <Card
                         title="Instagram Message Unsender/Deleter"
-                        image_src="media/gifs/480p/Instagram_DM_Unsender.gif"
+                        image_src="media/gifs/360p/Instagram_DM_Unsender.gif"
                         image_src_alt="Loading Instagram Message Unsender Gif"
                         text_1="Utilized computer vision (OpenCV) and PyAutoGUI to automatically and permanently delete sent messages, images, and posts in Instagram Direct Messages. Bot performance averages around 1,000 messages deleted per hour, depending on the computer's processing speeds and bandwidth speeds."
                         text_2=""
@@ -175,7 +195,7 @@ function CardContainer(properties) {
                     />
                     <Card 
                         title="Piano Tiles Bot"
-                        image_src="media/gifs/480p/Piano_Tiles.gif"
+                        image_src="media/gifs/360p/Piano_Tiles.gif"
                         image_src_alt="Loading Piano Tiles Gif"
                         text_1="Employed PyAutoGUI to recognize black tiles on the screen and Win32API to control the mouse and keyboard to automatically play Piano Tiles."
                         text_2=""
@@ -185,7 +205,7 @@ function CardContainer(properties) {
                     />
                     <Card 
                         title="Pi Visualizer"
-                        image_src="media/gifs/480p/Pi_Visualizer.gif"
+                        image_src="media/gifs/360p/Pi_Visualizer.gif"
                         image_src_alt="Loading Instagram Bot Gif"
                         text_1="This pi estimation visualizer uses the Monte Carlo method to estimate the value of pi. The program randomly generates points in a square with a circle inscribed into the square. Then pi is caluclated by multiplying 4 with the ratio between the number of points generated in the circle and the number of total points."
                         text_2=""
