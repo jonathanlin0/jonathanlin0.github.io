@@ -259,10 +259,7 @@ function Contact() {
             <div class="contact-container">
                 <h1 class="subtitle" id="contact-subtitle">Contact</h1>
                 <p class="contact-container-text">
-                    832-726-3338
-                </p>
-                <p class="contact-container-text">
-                    jonathan@caltech.edu
+                    jonathan [at] caltech [dot] edu
                 </p>
                 <p class="contact-container-text">
                     linkedin.com/in/j-lin0
