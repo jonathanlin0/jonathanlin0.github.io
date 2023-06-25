@@ -114,7 +114,7 @@ function CardContainer(properties) {
                 <h1 class="subtitle">Projects</h1>
                 <div class="cards">
                     <Card 
-                        title="Instagram Follower Generator"
+                        title="Instagram Follower Generation Tool"
                         image_src="media/gifs/360p/Instagram_Bot.gif"
                         image_src_alt="Loading Instagram Bot Gif"
                         text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Reverse engineered Instagram’s recommendation algorithm to create numerous propriety, targeted methods that increase account exposure by 10x and autonomously generate real Instagram followers for any user. Utilized Beautiful Soup and HTTP Requests to scrape data from Instagram and optimize the growth algorithms."
