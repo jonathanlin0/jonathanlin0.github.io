@@ -47,7 +47,7 @@ function LandingScreen() {
                     <div class="landing_list">
                         <ul>
                             <li>Studying Computer Science at the California Institute of Technology</li>
-                            <li>Passionate about solving real world problems with computer science</li>
+                            <li>Passionate about solving complex problems with machine learning, applied math, and software engineering</li>
                             <li>Currently doing machine learning and computer vision related research</li>
                             <li>Plays for Caltech's NCAA Varsity tennis team</li>
                         </ul>
@@ -113,6 +113,26 @@ function CardContainer(properties) {
             <div id="cards_anchor">
                 <h1 class="subtitle">Projects</h1>
                 <div class="cards">
+                    <Card 
+                        title="Poker Bot (Texas Hold’em)"
+                        image_src="media/poker_bot.jpg"
+                        image_src_alt="Loading Instagram Bot Gif"
+                        text_1="Created Game Theory Optimal (mathematically balanced) poker software that produces unexploitable epsilon Nash equilibrium strategy. Designed proprietary card/action abstraction algorithm. Developed new multithread reinforcement learning alg 15x faster than state-of-the-art RL poker algs."
+                        text_2="Project currently not open-sourced. Paper in the works explaining the bot's inner workings and performance analysis."
+                        text_3=""
+                        technologies="Next.JS, TypeScript, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
+                        source_code="https://github.com/jonathanlin0"
+                    />
+                    <Card 
+                        title="LloydGPT"
+                        image_src="media/gifs/360p/LloydGPT.gif"
+                        image_src_alt="Loading Instagram Bot Gif"
+                        text_1="Created full-stack solution for custom Caltech chat bot [ lloydgpt.com ] with Next.JS and TypeScript front-end, Django back-end, Google Firebase and MongoDB database. Website receiving 600+ visits/day. Reduced response time by 97% (14s to 0.3s) by optimizing existing algorithm runtime from O(n) to O(logn). Lowered query price by 98% ($0.03 to $0.0001) by creating new algorithm and prompt engineering."
+                        text_2=""
+                        text_3=""
+                        technologies="Next.JS, TypeScript, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
+                        source_code="https://github.com/jonathanlin0/Instagram-Bot"
+                    />
                     <Card 
                         title="Instagram Follower Generation Tool"
                         image_src="media/gifs/360p/Instagram_Bot.gif"
