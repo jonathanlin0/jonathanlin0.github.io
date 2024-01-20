@@ -121,7 +121,8 @@ function CardContainer(properties) {
                         text_2="Project currently not open-sourced. Paper in the works explaining the bot's inner workings and performance analysis."
                         text_3=""
                         technologies="Next.JS, TypeScript, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
-                        source_code="https://github.com/jonathanlin0"
+                        button_text="Poker Bot Paper"
+                        button_link="https://github.com/jonathanlin0"
                     />
                     <Card 
                         title="LloydGPT"
@@ -131,7 +132,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Next.JS, TypeScript, Google Firebase, MongoDB, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
-                        source_code="https://github.com/jonathanlin0/Instagram-Bot"
+                        button_text="LloydGPT Website"
+                        button_link="https://www.lloydgpt.com/"
                     />
                     <Card 
                         title="Instagram Follower Generation Tool"
@@ -141,7 +143,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, JS, HTML, CSS, Django, Repl, Selenium, BeautifulSoup, Requests"
-                        source_code="https://github.com/jonathanlin0/Instagram-Bot"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Instagram-Bot"
                     />
                     <Card 
                         title="Malware Prevention Website & API"
@@ -151,7 +154,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, Pygame, Tkinter, Postman, Requests"
-                        source_code="https://github.com/jonathanlin0/Bypasser-Website"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Bypasser-Website"
                     />
                     <Card 
                         title="Theseus Video Game"
@@ -161,7 +165,8 @@ function CardContainer(properties) {
                         text_2="Awards for this game: FBLA Nationals Competition: 2nd place. FBLA State Competition: 1st place. FBLA Area Competition: 1st place."
                         text_3=""
                         technologies="Python, GDScript, Django, Requests, Repl, Godot, Logic Pro, Aseprite, Davinci Resolve, GIMP"
-                        source_code="https://github.com/jonathanlin0/Theseus"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Theseus"
                     />
                     <Card 
                         title="Twitter Fake News Checker Bot"
@@ -171,7 +176,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, Pandas, Scikit-learn, BeautifulSoup, Tweepy, Requests, Postman"
-                        source_code="https://github.com/jonathanlin0/Fake-News"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Fake-News"
                     />
                     <Card 
                         title="Physics Engine"
@@ -181,7 +187,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="C, Emscripten, SDL2, Gitlab"
-                        source_code="https://github.com/jonathanlin0/Physics-Engine-C"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Physics-Engine-C"
                     />
                     <Card 
                         title="Android Quiz App"
@@ -191,7 +198,8 @@ function CardContainer(properties) {
                         text_2="Awards for this app: FBLA Nationals Competition qualifier and competitor. FBLA State Competition: 3rd place. FBLA Area Competition: 1st place."
                         text_3=""
                         technologies="Java, Android Studio, GIMP"
-                        source_code="https://github.com/jonathanlin0/FBLA-Mobile-Application-Development"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/FBLA-Mobile-Application-Development"
                     />
                     <Card 
                         title="Proxy Generator & Checker"
@@ -201,7 +209,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, Selenium, Requests, Beautiful Soup 4"
-                        source_code="https://github.com/jonathanlin0/Tools/tree/main/proxy_generator"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Tools/tree/main/proxy_generator"
                     />
                     <Card
                         title="Instagram Message Unsender/Deleter"
@@ -211,7 +220,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, PyAutoGUI, Win32API , Python-ImageSearch"
-                        source_code="https://github.com/jonathanlin0/Instagram-DM-Unsender"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Instagram-DM-Unsender"
                     />
                     <Card 
                         title="Piano Tiles Bot"
@@ -221,7 +231,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, PyAutoGUI, Selenium, Win32API"
-                        source_code="https://github.com/jonathanlin0/piano-tiles-bot"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/piano-tiles-bot"
                     />
                     <Card 
                         title="Pi Visualizer"
@@ -231,7 +242,8 @@ function CardContainer(properties) {
                         text_2=""
                         text_3=""
                         technologies="Python, Pygame"
-                        source_code="https://github.com/jonathanlin0/Pi-Estimation-Visualizer"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/Pi-Estimation-Visualizer"
                     />
                 </div>
             </div>
@@ -253,8 +265,9 @@ function Card(properties) {
                 </div>
                 <div class="card_footer">
                     <CardButtons 
-                        text="Source Code"
-                        github={properties.source_code}
+                        text={properties.button_text}
+                        // text="Source Code"
+                        github={properties.button_link}
                     />              
                 </div>
             </div>
