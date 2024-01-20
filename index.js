@@ -130,7 +130,7 @@ function CardContainer(properties) {
                         text_1="Created full-stack solution for custom Caltech chat bot [ lloydgpt.com ] with Next.JS and TypeScript front-end, Django back-end, Google Firebase and MongoDB database. Website receiving 600+ visits/day. Reduced response time by 97% (14s to 0.3s) by optimizing existing algorithm runtime from O(n) to O(logn). Lowered query price by 98% ($0.03 to $0.0001) by creating new algorithm and prompt engineering."
                         text_2=""
                         text_3=""
-                        technologies="Next.JS, TypeScript, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
+                        technologies="Next.JS, TypeScript, Google Firebase, MongoDB, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
                         source_code="https://github.com/jonathanlin0/Instagram-Bot"
                     />
                     <Card 
