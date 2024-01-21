@@ -122,7 +122,7 @@ function CardContainer(properties) {
                         text_3=""
                         technologies="Next.JS, TypeScript, Python, HTML, CSS, Django, Selenium, BeautifulSoup, Requests"
                         button_text="Poker Bot Paper"
-                        button_link="https://github.com/jonathanlin0"
+                        button_link="files/poker-bot-paper.pdf"
                     />
                     <Card 
                         title="LloydGPT"
@@ -266,7 +266,6 @@ function Card(properties) {
                 <div class="card_footer">
                     <CardButtons 
                         text={properties.button_text}
-                        // text="Source Code"
                         github={properties.button_link}
                     />              
                 </div>
