@@ -44,12 +44,12 @@ function LandingScreen() {
             <div class="banner-container">
                 <div class="banner-text">
                     <h1>Jonathan Lin</h1>
+                    <h2 id="quote"><em>nothing worth having comes easy</em></h2>
                     <div class="landing_list">
                         <ul>
                             <li>Studying Computer Science at the California Institute of Technology</li>
                             <li>Passionate about solving complex problems with machine learning, applied math, and software engineering</li>
                             <li>Currently doing machine learning and computer vision related research</li>
-                            <li>Plays for Caltech's NCAA Varsity tennis team</li>
                         </ul>
                     </div>
                     
