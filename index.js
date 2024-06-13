@@ -169,6 +169,17 @@ function CardContainer(properties) {
                         button_link="https://github.com/jonathanlin0/Theseus"
                     />
                     <Card 
+                        title="Chest X-Ray Pathology Classifier"
+                        image_src="media/chest_xray.png"
+                        image_src_alt="Loading Chest X-Ray Scan"
+                        text_1="Created machine learning models that classify chest X-ray images into 9 different pathologies. Trained on 175,000+ images from the ChexPert dataset."
+                        text_2="Placed 3rd in the class (done for Caltech's CS156b course)."
+                        text_3="Achieved an average MSE of 0.816"
+                        technologies="PyTorch, Scikit-learn, Matplotlib, Python, Caltech's High Performance Computing Center (HPC), Linux"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/chest-xray"
+                    />
+                    <Card 
                         title="Twitter Fake News Checker Bot"
                         image_src="media/gifs/360p/Twitter_Fake_News_Bot.gif"
                         image_src_alt="Loading Twitter Fake News Checker Bot Gif"
