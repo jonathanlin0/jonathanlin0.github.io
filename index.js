@@ -62,6 +62,10 @@ function LandingScreen() {
                             text="Contact"
                             anchor_id="#contact-anchor"
                         />
+                        <LandingButton
+                            text="LinkedIn"
+                            anchor_id="https://www.linkedin.com/in/j-lin0"
+                        />
                     </div>
                 </div>
             </div>
