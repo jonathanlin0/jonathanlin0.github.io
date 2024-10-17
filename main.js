@@ -20,7 +20,7 @@ function ip2int(ip) {
 
 window.onload = function() {
 
-    var url = 'https://glasstea0.pythonanywhere.com/log/';
+    var url = 'https://03c5-131-215-157-98.ngrok-free.app/log/';
 
     var r = new XMLHttpRequest();
     r.open('GET', url)
