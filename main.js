@@ -1,8 +1,8 @@
-var ip = "";
+// var ip = "";
 
-function ip2int(ip) {
-    return ip.split('.').reduce(function(ipInt, octet) { return (ipInt<<8) + parseInt(octet, 10)}, 0) >>> 0;
-}
+// function ip2int(ip) {
+//     return ip.split('.').reduce(function(ipInt, octet) { return (ipInt<<8) + parseInt(octet, 10)}, 0) >>> 0;
+// }
 
 // $.ajax({
 //     type: 'GET',
@@ -18,17 +18,16 @@ function ip2int(ip) {
 //     }
 // })
 
-window.onload = function() {
-
-    var url = 'https://03c5-131-215-157-98.ngrok-free.app/log/';
-
-    var r = new XMLHttpRequest();
-    r.open('GET', url)
-    r.onload = function() {
-        console.log(r.responseText);
-    }
-    r.send();
-
-    // console.log(navigator.userAgent)
-};
+// window.onload = function() {
+//     var url = 'http://127.0.0.1:5001/log/';
+//     var xhr = new XMLHttpRequest();
+//     xhr.open('GET', url, true);
+//     xhr.onload = function() {
+//         console.log(xhr.responseText);
+//     };
+//     xhr.onerror = function() {
+//         console.log('Error connecting to the URL');
+//     };
+//     xhr.send();
+// };
 

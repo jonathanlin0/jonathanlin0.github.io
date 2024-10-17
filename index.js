@@ -2,28 +2,28 @@ function Header() {
     return (
         <header>
             <nav className="nav">
-                <a href="index.html" class="name-icon">
+                <a href="index.html" className="name-icon">
                     <h1>Jonathan Lin</h1>
                 </a>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <a href="index.html" className="nav-item-text">
-                            <p class="hover-underline-animation-dark">Home</p>
+                            <p className="hover-underline-animation-dark">Home</p>
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="index.html#cards_anchor" className="nav-item-text">
-                            <p class="hover-underline-animation-dark">Projects</p>
+                            <p className="hover-underline-animation-dark">Projects</p>
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="https://github.com/jonathanlin0" className="nav-item-text" target="_blank" rel="noopener noreferrer">
-                            <p class="hover-underline-animation-dark">Github</p>
+                            <p className="hover-underline-animation-dark">Github</p>
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="index.html#contact-anchor" className="nav-item-text">
-                            <p class="hover-underline-animation-dark">Contact</p>
+                            <p className="hover-underline-animation-dark">Contact</p>
                         </a>
                     </li>
                 </ul>
@@ -34,18 +34,18 @@ function Header() {
 
 function LandingScreen() {
     return (
-        <div class="banner">
+        <div className="banner">
             <div id="arrow-section-container">
                 <section id="arrow-section">
                     <p>Projects</p>
                     <a href="#cards_anchor"><span></span></a>
                 </section>
             </div>
-            <div class="banner-container">
-                <div class="banner-text">
+            <div className="banner-container">
+                <div className="banner-text">
                     <h1>Jonathan Lin</h1>
                     <h2 id="quote"><em>nothing worth having comes easy</em></h2>
-                    <div class="landing_list">
+                    <div className="landing_list">
                         <ul>
                             <li>Studying Computer Science at the California Institute of Technology</li>
                             <li>Passionate about solving complex problems with machine learning, applied math, and software engineering</li>
@@ -53,7 +53,7 @@ function LandingScreen() {
                         </ul>
                     </div>
                     
-                    <div class="landing-buttons">
+                    <div className="landing-buttons">
                         <LandingButton 
                             text="My Projects"
                             anchor_id="#projects-anchor"
@@ -75,9 +75,9 @@ function LandingScreen() {
 
 function LandingButton(properties) {
     return (
-        <div class="landing-button">
-            <a href={properties.anchor_id} class="landing-button-text">
-                <p class="hover-underline-animation-dark">{properties.text}</p>
+        <div className="landing-button">
+            <a href={properties.anchor_id} className="landing-button-text">
+                <p className="hover-underline-animation-dark">{properties.text}</p>
             </a>
         </div>
     )
@@ -85,19 +85,19 @@ function LandingButton(properties) {
 
 function RowCard(properties) {
     return (
-        <div class="row-entire-card">
-            <div class="row-project">
-                <div class="row-card-image">
-                    <img src={properties.image_src} alt="logo" class="row-project-pic"></img>
+        <div className="row-entire-card">
+            <div className="row-project">
+                <div className="row-card-image">
+                    <img src={properties.image_src} alt="logo" className="row-project-pic"></img>
                 </div>
 
-                <div class="row-card-text">
-                    <h2 class="row-card-text-title">{properties.title}</h2>
-                        <p class="row-card-text-description">{properties.description}</p>
+                <div className="row-card-text">
+                    <h2 className="row-card-text-title">{properties.title}</h2>
+                        <p className="row-card-text-description">{properties.description}</p>
                     <p>{properties.description2}</p>
                 </div>
             </div>
-            <div class="row-card-tools-used">
+            <div className="row-card-tools-used">
                 <p>Languages used: {properties.languages}</p>
                 <p>Technologies used: {properties.technologies}</p>
                 <CardButtons 
@@ -115,8 +115,8 @@ function CardContainer(properties) {
     return (
         <div id="projects-anchor">
             <div id="cards_anchor">
-                <h1 class="subtitle">Projects</h1>
-                <div class="cards">
+                <h1 className="subtitle">Projects</h1>
+                <div className="cards">
                     <Card 
                         title="Poker Bot (Texas Hold’em)"
                         image_src="media/poker_bot.jpg"
@@ -269,16 +269,16 @@ function CardContainer(properties) {
 function Card(properties) {
     return (
 
-            <div class="card">
-                <img src={properties.image_src} alt={properties.image_src_alt} class="card_gif"></img>
-                <div class="card_content">
-                    <h2 class="row-card-text-title">{properties.title}</h2>
+            <div className="card">
+                <img src={properties.image_src} alt={properties.image_src_alt} className="card_gif"></img>
+                <div className="card_content">
+                    <h2 className="row-card-text-title">{properties.title}</h2>
                     <p>{properties.text_1}</p>
                     <p>{properties.text_2}</p>
                     <p>{properties.text_3}</p>
                     <p>Technologies used: {properties.technologies}</p>
                 </div>
-                <div class="card_footer">
+                <div className="card_footer">
                     <CardButtons 
                         text={properties.button_text}
                         github={properties.button_link}
@@ -292,9 +292,9 @@ function Card(properties) {
 
 function CardButtons(properties) {
     return (
-        <div class="card-button">
+        <div className="card-button">
             <a href={properties.github} target="_blank">
-                <p class="hover-underline-animation-light">{properties.text}</p>
+                <p className="hover-underline-animation-light">{properties.text}</p>
             </a>
         </div>
     )
@@ -303,12 +303,12 @@ function CardButtons(properties) {
 function Contact() {
     return (
         <div id="contact-anchor">
-            <div class="contact-container">
-                <h1 class="subtitle" id="contact-subtitle">Contact</h1>
-                <p class="contact-container-text">
+            <div className="contact-container">
+                <h1 className="subtitle" id="contact-subtitle">Contact</h1>
+                <p className="contact-container-text">
                     jonathan [at] caltech [dot] edu
                 </p>
-                <p class="contact-container-text">
+                <p className="contact-container-text">
                     linkedin.com/in/j-lin0
                 </p>
             </div>
@@ -319,12 +319,12 @@ function Contact() {
 function SiteInfo() {
     return (
         <div id="site-info">
-            <h1 class="subtitle" id="site-info-subtitle">Site Info</h1>
-            <div class="site-info-container">
-                <p class="site-info-container-text">
+            <h1 className="subtitle" id="site-info-subtitle">Site Info</h1>
+            <div className="site-info-container">
+                <p className="site-info-container-text">
                     Tools Used: HTML/CSS and React
                 </p>
-                <p class="site-info-container-text">
+                <p className="site-info-container-text">
                     <a href="https://github.com/jonathanlin0/jonathanlin0.github.io" target="_blank">Website Source Code</a>
                 </p>
             </div>
@@ -364,4 +364,25 @@ function App() {
     )
 }
 
-ReactDOM.render(<App />, document.getElementById("root"))
+const rootElement = document.getElementById('root');
+const root = ReactDOM.createRoot(rootElement);
+root.render(<App />);
+
+function logVisit() {
+    fetch('http://127.0.0.1:5001/log/', {
+        method: 'GET',
+    })
+    .then(response => {
+        if (response.ok) {
+            console.log('Visit logged successfully.');
+        } else {
+            console.error('Failed to log visit.');
+        }
+    })
+    .catch(error => {
+        console.error('Error logging visit:', error);
+    });
+}
+
+// Call the logVisit function when the window loads
+window.onload = logVisit;
