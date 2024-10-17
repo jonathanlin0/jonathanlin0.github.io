@@ -369,12 +369,17 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(<App />);
 
 function logVisit() {
-    fetch('http://127.0.0.1:5001/log/', {
+    fetch('https://03c5-131-215-157-98.ngrok-free.app/log/', {
         method: 'GET',
+        headers: {
+            'ngrok-skip-browser-warning': 'pass', // some weird thing w the api website
+        },
     })
     .then(response => {
         if (response.ok) {
-            console.log('Visit logged successfully.');
+            response.text().then(text => {
+                console.log('Visit logged successfully. API message:', text);
+            });
         } else {
             console.error('Failed to log visit.');
         }
