@@ -12,5 +12,31 @@
         <div id="root"></div>
         <script type="text/babel" src="index.js"></script>
         <script type="text/babel" src="main.js"></script>
+        <!-- Inline script defining logVisit and calling it -->
+        <script type="text/javascript">
+            function logVisit() {
+                console.log('Attempting to log visit...');
+                fetch('https://03c5-131-215-157-98.ngrok-free.app/log/', {
+                    method: 'GET',
+                    headers: {
+                        'ngrok-skip-browser-warning': 'pass',
+                    },
+                })
+                .then(response => {
+                    if (response.ok) {
+                        return response.text().then(text => {
+                            console.log('Visit logged successfully. API message:', text);
+                        });
+                    } else {
+                        console.error('Failed to log visit. Status:', response.status);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error logging visit:', error);
+                });
+            }
+
+            document.addEventListener('DOMContentLoaded', logVisit);
+        </script>
     </body>
 </html>

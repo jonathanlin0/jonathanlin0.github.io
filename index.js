@@ -367,27 +367,3 @@ function App() {
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 root.render(<App />);
-
-function logVisit() {
-    fetch('https://03c5-131-215-157-98.ngrok-free.app/log/', {
-        method: 'GET',
-        headers: {
-            'ngrok-skip-browser-warning': 'pass', // some weird thing w the api website
-        },
-    })
-    .then(response => {
-        if (response.ok) {
-            response.text().then(text => {
-                console.log('Visit logged successfully. API message:', text);
-            });
-        } else {
-            console.error('Failed to log visit.');
-        }
-    })
-    .catch(error => {
-        console.error('Error logging visit:', error);
-    });
-}
-
-// Call the logVisit function when the window loads
-window.onload = logVisit;
