@@ -121,9 +121,9 @@ function CardContainer(properties) {
                         title="Poker Bot (Texas Hold’em)"
                         image_src="media/poker_bot.jpg"
                         image_src_alt="Loading Instagram Bot Gif"
-                        text_1="Created Game Theory Optimal (mathematically balanced) poker software that produces unexploitable epsilon Nash equilibrium strategy. Designed proprietary card/action abstraction algorithm. Developed new multithread reinforcement learning alg 15x faster than state-of-the-art RL poker algs."
-                        text_2="Project currently not open-sourced. Paper in the works explaining the bot's inner workings and performance analysis."
-                        text_3=""
+                        text_1="Taught a computer how to play poker."
+                        text_2="Created Game Theory Optimal (mathematically balanced) poker software that produces unexploitable epsilon Nash equilibrium strategy. Designed proprietary card/action abstraction algorithm. Developed new multithread reinforcement learning alg 15x faster than state-of-the-art RL poker algs."
+                        text_3="Project currently not open-sourced. Paper in the works explaining the bot's inner workings and performance analysis."
                         technologies="Python, Google Cloud Platform, Flask, JS/HTML/CSS"
                         button_text="Poker Bot Paper"
                         button_link="files/poker-bot-paper.pdf"
@@ -204,6 +204,17 @@ function CardContainer(properties) {
                         technologies="C, Emscripten, SDL2, Gitlab"
                         button_text="Source Code"
                         button_link="https://github.com/jonathanlin0/Physics-Engine-C"
+                    />
+                    <Card 
+                        title="Java Virtual Machine (JVM)"
+                        image_src="media/JVM.png"
+                        image_src_alt="Loading JVM picture"
+                        text_1="Developed a custom JVM capable of executing Java bytecode for common operations. Implemented core bytecode instructions, including arithmetic, stack management, and control flow, ensuring program correctness and efficiency. Utilized C to manage a simulated operand stack, constant pool, and local variables."
+                        text_2=""
+                        text_3=""
+                        technologies="C, Java"
+                        button_text="Source Code"
+                        button_link="https://github.com/jonathanlin0/JVM"
                     />
                     <Card 
                         title="Android Quiz App"
