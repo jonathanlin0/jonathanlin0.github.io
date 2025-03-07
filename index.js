@@ -125,8 +125,8 @@ function CardContainer(properties) {
                         text_2="Created Game Theory Optimal (mathematically balanced) poker software that produces unexploitable epsilon Nash equilibrium strategy. Designed proprietary card/action abstraction algorithm. Developed new multithread reinforcement learning alg 15x faster than state-of-the-art RL poker algs."
                         text_3="Project currently not open-sourced. Paper in the works explaining the bot's inner workings and performance analysis."
                         technologies="Python, Google Cloud Platform, Flask, JS/HTML/CSS"
-                        button_text="Poker Bot Paper"
-                        button_link="files/poker-bot-paper.pdf"
+                        button_text="Player the Poker Bot Here!"
+                        button_link="https://www.alwayspunting.com/"
                     />
                     <Card 
                         title="LloydGPT"
