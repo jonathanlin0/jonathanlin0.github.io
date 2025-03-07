@@ -118,8 +118,8 @@ function CardContainer(properties) {
                 <h1 className="subtitle">Projects</h1>
                 <div className="cards">
                     <Card 
-                        title="Poker Bot (Texas Hold’em)"
-                        image_src="media/poker_bot.jpg"
+                        title="Poker Bot (Texas Hold'em)"
+                        image_src="media/gifs/720p/pnl.gif"
                         image_src_alt="Loading Instagram Bot Gif"
                         text_1="Taught a computer how to play poker."
                         text_2="Created Game Theory Optimal (mathematically balanced) poker software that produces unexploitable epsilon Nash equilibrium strategy. Designed proprietary card/action abstraction algorithm. Developed new multithread reinforcement learning alg 15x faster than state-of-the-art RL poker algs."
