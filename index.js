@@ -49,7 +49,7 @@ function LandingScreen() {
                         <ul>
                             <li>Studying Computer Science at the California Institute of Technology</li>
                             <li>Passionate about solving complex problems with machine learning, applied math, and software engineering</li>
-                            <li>Currently doing machine learning and computer vision related research</li>
+                            <li>Have experience working in quantitative trading, AI safety research, and traditional software engineering</li>
                         </ul>
                     </div>
                     
