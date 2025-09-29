@@ -77,7 +77,7 @@ function LandingButton(properties) {
     return (
         <div className="landing-button">
             <a href={properties.anchor_id} className="landing-button-text">
-                <p className="hover-underline-animation-dark">{properties.text}</p>
+                <p className="hover-underline-animation-light">{properties.text}</p>
             </a>
         </div>
     )
@@ -143,7 +143,7 @@ function CardContainer(properties) {
                         title="Instagram Follower Generation Tool"
                         image_src="media/gifs/360p/Instagram_Bot.gif"
                         image_src_alt="Loading Instagram Bot Gif"
-                        text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Reverse engineered Instagram’s recommendation algorithm to create numerous propriety, targeted methods that increase account exposure by 10x and autonomously generate real Instagram followers for any user. Utilized Beautiful Soup and HTTP Requests to scrape data from Instagram and optimize the growth algorithms."
+                        text_1="Sold 20+ licensed copies (before open-sourcing) and created frontend using Tkinter and Pygame. Reverse engineered Instagram's recommendation algorithm to create numerous propriety, targeted methods that increase account exposure by 10x and autonomously generate real Instagram followers for any user. Utilized Beautiful Soup and HTTP Requests to scrape data from Instagram and optimize the growth algorithms."
                         text_2=""
                         text_3=""
                         technologies="Python, JS, HTML, CSS, Django, Repl, Selenium, BeautifulSoup, Requests"
@@ -154,7 +154,7 @@ function CardContainer(properties) {
                         title="Malware Prevention Website & API"
                         image_src="media/gifs/1080p/Bypass_Website.png"
                         image_src_alt="Loading Malware Prevention Website & API Gif"
-                        text_1="250,000+ visits, 44,000+ unique users. Coded frontend website and backend to protect users’ computers from malicious, link-shortening websites. Backend successfully handled 10+ requests per second by using rotating proxies, Django, and Replit. Utilized custom Rest APIs and data processing for frontend backend communication."
+                        text_1="250,000+ visits, 44,000+ unique users. Coded frontend website and backend to protect users' computers from malicious, link-shortening websites. Backend successfully handled 10+ requests per second by using rotating proxies, Django, and Replit. Utilized custom Rest APIs and data processing for frontend backend communication."
                         text_2=""
                         text_3=""
                         technologies="Python, Pygame, Tkinter, Postman, Requests"
@@ -287,7 +287,7 @@ function Card(properties) {
                     <p>{properties.text_1}</p>
                     <p>{properties.text_2}</p>
                     <p>{properties.text_3}</p>
-                    <p>Technologies used: {properties.technologies}</p>
+                    <p className="technologies-text">Technologies used: {properties.technologies}</p>
                 </div>
                 <div className="card_footer">
                     <CardButtons 
@@ -320,7 +320,9 @@ function Contact() {
                     jonathan [at] caltech [dot] edu
                 </p>
                 <p className="contact-container-text">
-                    linkedin.com/in/j-lin0
+                    <a href="https://www.linkedin.com/in/j-lin0/" target="_blank" rel="noopener noreferrer">
+                        linkedin.com/in/j-lin0
+                    </a>
                 </p>
             </div>
         </div>
@@ -346,7 +348,7 @@ function SiteInfo() {
 function Footer() {
     return (
         <footer>
-            <small>© Jonathan Lin 2021-2024. All rights reserved.</small>
+            <small>© Jonathan Lin 2021-2025. All rights reserved.</small>
         </footer>
     )
 }
