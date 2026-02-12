@@ -1,1 +1,0 @@
-used https://cloudconvert.com/mp4-to-gif to convert 1080p 60 fps video to 360p 10 fps gif
